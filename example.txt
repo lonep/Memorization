@@ -1,0 +1,6 @@
+\q First USA President:
+\t Washington
+\f Lincoln
+\f Clinton
+
+* \t - правильный вариант ответа, \f неправильный вариант ответа

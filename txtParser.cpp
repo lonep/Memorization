@@ -3,7 +3,8 @@
 //
 #include <iostream>
 #include "txtParser.h"
-testCard txtParser::parseFile(std::ofstream &file) {
-     std::string s;
-     s << file;
+#include <string>
+#include <list>
+testCard txtParser::parseFile(std::ifstream &file) {
+     std::list <testCard> cardList;
 }

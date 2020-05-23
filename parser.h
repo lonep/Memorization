@@ -8,7 +8,7 @@
 #include <fstream>
 class parser {
 public:
-    virtual testCard parseFile(std::ofstream &file) = 0;
+    virtual testCard parseFile(std::ifstream &file) = 0;
 };
 
 

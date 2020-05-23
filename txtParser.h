@@ -7,9 +7,16 @@
 #include "parser.h"
 #include <fstream>
 #include <regex>
+#include <string>
+using namespace std;
 class txtParser: public parser {
 public:
-    testCard parseFile(std::ofstream &file) override;
+    testCard parseFile(std::ifstream &file) override;
+    std::regex q("^/q (.*)"); //question
+
+    std::regex t; //true
+    std::regex f; //false
+    std::regex a("a");
 
 };
 

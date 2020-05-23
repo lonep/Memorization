@@ -10,6 +10,7 @@
 #include <vector>
 
 class testCard {
+public:
     std::string question;
     std::string trueAn;
     std::vector <std::string> falseAn;

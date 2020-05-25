@@ -27,6 +27,10 @@ string
 -
 list
 -
+cstdio
+-
+sstream
+-
 
 C:/Users/lonep/Documents/GitHub/Memorization/txtParser.h
 parser.h

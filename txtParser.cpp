@@ -5,6 +5,8 @@
 #include "txtParser.h"
 #include <string>
 #include <list>
+#include <cstdio>
+#include <sstream>
 
 testCard txtParser::parseFile(std::ifstream &file) {
      std::list <testCard> cardList;
@@ -13,7 +15,7 @@ testCard txtParser::parseFile(std::ifstream &file) {
      t = ("^<t> (.*)");
      f = ("^<f> (.*)");
      string s;
-        getline(file, s);
+       getline(file, s);
         if (regex_search(s,q)){
             testCard *test = new testCard;
             for(int i = 4; i < s.length(); i++){
@@ -24,15 +26,15 @@ testCard txtParser::parseFile(std::ifstream &file) {
                 for(int i = 4; i < s.length(); i++){
                     test->trueAn += s[i];
             }
-                getline(file, s);
-                while (regex_search(s,f)){
-                    for(int i = 4; i < s.length(); i++){
-                        string a;
-                        a += s[i];
-                        test->falseAn.push_back(a);
-                    }
+                while (!file.eof()){
+                        getline(file, s);
+                        stringstream a;
+                        for (int i = 4; i < s.length(); i++)
+                            a << s[i];
+                    test->falseAn.push_back(a.str());
                 }
             }
+            cardList.push_back(*test);
         }
 
    cout << cardList.back().question << '\n';

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/lonep/Documents/GitHub/Memorization/parser.h
+testCard.h
+C:/Users/lonep/Documents/GitHub/Memorization/testCard.h
+fstream
+-
+
+C:/Users/lonep/Documents/GitHub/Memorization/testCard.h
+string
+-
+vector
+-
+
+C:/Users/lonep/Documents/GitHub/Memorization/txtParser.cpp
+iostream
+-
+txtParser.h
+C:/Users/lonep/Documents/GitHub/Memorization/txtParser.h
+string
+-
+list
+-
+
+C:/Users/lonep/Documents/GitHub/Memorization/txtParser.h
+parser.h
+C:/Users/lonep/Documents/GitHub/Memorization/parser.h
+fstream
+-
+regex
+-
+string
+-
+

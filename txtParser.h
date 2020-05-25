@@ -12,11 +12,12 @@ using namespace std;
 class txtParser: public parser {
 public:
     testCard parseFile(std::ifstream &file) override;
-    std::regex q("^/q (.*)"); //question
 
+private:
+    std::regex q; //question
     std::regex t; //true
     std::regex f; //false
-    std::regex a("a");
+
 
 };
 

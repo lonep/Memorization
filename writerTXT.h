@@ -6,11 +6,14 @@
 #define MEMORIZATION_WRITERTXT_H
 
 #include "writer.h"
+#include <fstream>
+#include <string>
 
 class writerTXT: public writer {
 public:
     void setPATH(std::string str) override;
     void write() override;
+    static bool isPATHCorrect(std::string path);
 };
 
 

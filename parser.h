@@ -6,9 +6,10 @@
 #define UNTITLED1_PARSER_H
 #include "testCard.h"
 #include <fstream>
+#include <list>
 class parser {
 public:
-    virtual testCard parseFile(std::ifstream &file) = 0;
+    virtual std::list<testCard*> parseFile(std::ifstream &file) = 0;
 };
 
 

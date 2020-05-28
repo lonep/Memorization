@@ -4,42 +4,35 @@
 #include <iostream>
 #include "txtParser.h"
 #include <string>
-#include <list>
-#include <cstdio>
 #include <sstream>
 
-testCard txtParser::parseFile(std::ifstream &file) {
-     std::list <testCard> cardList;
+std::list<testCard*> txtParser::parseFile(std::ifstream &file) {
+    std::list<testCard*> cardList;
 
-     q = ("^<q> (.*)");
-     t = ("^<t> (.*)");
-     f = ("^<f> (.*)");
-     string s;
-       getline(file, s);
-        if (regex_search(s,q)){
-            testCard *test = new testCard;
-            for(int i = 4; i < s.length(); i++){
-                test->question += s[i];
-            }
+
+    string s;
+    getline(file, s);
+    while (!file.eof()) {
+        testCard *card = new testCard;
+        for (int i = 4; i < s.length(); i++)
+            card->question += s[i];
+        cout << card->question << '\n';
+        getline(file, s);
+        for (int i = 4; i < s.length(); i++)
+            card->trueAn += s[i];
+        cout << card->trueAn << '\n';
+        getline(file, s);
+        stringstream f;
+        while (s[1] == 'f' && s.length()>0) {
+            for (int i = 4; i < s.length(); i++)
+                f << s[i];
+            card->falseAn.push_back(f.str());
+            cout << card->falseAn.back() << '\n';
+            f.str("");
+            f.clear();
             getline(file, s);
-            if(regex_search(s,t)){
-                for(int i = 4; i < s.length(); i++){
-                    test->trueAn += s[i];
-            }
-                while (!file.eof()){
-                        getline(file, s);
-                        stringstream a;
-                        for (int i = 4; i < s.length(); i++)
-                            a << s[i];
-                    test->falseAn.push_back(a.str());
-                }
-            }
-            cardList.push_back(*test);
         }
-
-   cout << cardList.back().question << '\n';
-   cout << cardList.back().trueAn << '\n';
-   for (int i = 0; i < cardList.back().falseAn.size(); i++) {
-       cout << cardList.back().falseAn[i] << '\n';
-   }
+        cardList.push_back(card);
+    }
+    return cardList;
 }

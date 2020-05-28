@@ -11,6 +11,8 @@ testCard.h
 C:/Users/lonep/Documents/GitHub/Memorization/testCard.h
 fstream
 -
+list
+-
 
 C:/Users/lonep/Documents/GitHub/Memorization/testCard.h
 string
@@ -25,8 +27,6 @@ txtParser.h
 C:/Users/lonep/Documents/GitHub/Memorization/txtParser.h
 string
 -
-list
--
 cstdio
 -
 sstream
@@ -37,8 +37,8 @@ parser.h
 C:/Users/lonep/Documents/GitHub/Memorization/parser.h
 fstream
 -
-regex
--
 string
+-
+list
 -
 

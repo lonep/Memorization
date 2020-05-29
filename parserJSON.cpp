@@ -13,7 +13,6 @@ std::list<testCard*> parserJSON::parseFile(std::ifstream &file) {
     Document doc;
     IStreamWrapper js(file);
     doc.ParseStream(js);
-
     for(short i = 0; i < doc["cards"].Size(); i++ ){
         testCard *card = new testCard;
         card->question = doc["cards"][i]["question"].GetString();

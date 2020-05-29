@@ -149,32 +149,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-txtParser.obj: txtParser.cpp.obj
+parserJSON.obj: parserJSON.cpp.obj
 
-.PHONY : txtParser.obj
+.PHONY : parserJSON.obj
 
 # target to build an object file
-txtParser.cpp.obj:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/txtParser.cpp.obj
-.PHONY : txtParser.cpp.obj
+parserJSON.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserJSON.cpp.obj
+.PHONY : parserJSON.cpp.obj
 
-txtParser.i: txtParser.cpp.i
+parserJSON.i: parserJSON.cpp.i
 
-.PHONY : txtParser.i
+.PHONY : parserJSON.i
 
 # target to preprocess a source file
-txtParser.cpp.i:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/txtParser.cpp.i
-.PHONY : txtParser.cpp.i
+parserJSON.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserJSON.cpp.i
+.PHONY : parserJSON.cpp.i
 
-txtParser.s: txtParser.cpp.s
+parserJSON.s: parserJSON.cpp.s
 
-.PHONY : txtParser.s
+.PHONY : parserJSON.s
 
 # target to generate assembly for a file
-txtParser.cpp.s:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/txtParser.cpp.s
-.PHONY : txtParser.cpp.s
+parserJSON.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserJSON.cpp.s
+.PHONY : parserJSON.cpp.s
+
+parserTXT.obj: parserTXT.cpp.obj
+
+.PHONY : parserTXT.obj
+
+# target to build an object file
+parserTXT.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserTXT.cpp.obj
+.PHONY : parserTXT.cpp.obj
+
+parserTXT.i: parserTXT.cpp.i
+
+.PHONY : parserTXT.i
+
+# target to preprocess a source file
+parserTXT.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserTXT.cpp.i
+.PHONY : parserTXT.cpp.i
+
+parserTXT.s: parserTXT.cpp.s
+
+.PHONY : parserTXT.s
+
+# target to generate assembly for a file
+parserTXT.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserTXT.cpp.s
+.PHONY : parserTXT.cpp.s
 
 # Help Target
 help:
@@ -188,9 +215,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... txtParser.obj
-	@echo ... txtParser.i
-	@echo ... txtParser.s
+	@echo ... parserJSON.obj
+	@echo ... parserJSON.i
+	@echo ... parserJSON.s
+	@echo ... parserTXT.obj
+	@echo ... parserTXT.i
+	@echo ... parserTXT.s
 .PHONY : help
 
 

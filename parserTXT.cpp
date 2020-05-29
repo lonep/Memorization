@@ -2,16 +2,17 @@
 // Created by lonep on 22-May-20.
 //
 #include <iostream>
-#include "txtParser.h"
+#include "parserTXT.h"
 #include <string>
 #include <sstream>
 
-std::list<testCard*> txtParser::parseFile(std::ifstream &file) {
+std::list<testCard*> parserTXT::parseFile(std::ifstream &file) {
     std::list<testCard*> cardList;
 
 
     string s;
     getline(file, s);
+
     while (!file.eof()) {
         testCard *card = new testCard;
         for (int i = 4; i < s.length(); i++)

@@ -53,6 +53,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lonep\Documents\GitHub\Memorization" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug" />
     </key>
@@ -84,6 +87,8 @@
       <workItem from="1590659765597" duration="1379000" />
       <workItem from="1590740306355" duration="165000" />
       <workItem from="1590743262849" duration="338000" />
+      <workItem from="1590758974566" duration="3957000" />
+      <workItem from="1590767450738" duration="4909000" />
     </task>
     <servers />
   </component>
@@ -99,42 +104,50 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="420" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1590352824790" />
-    <state width="1236" height="130" key="GridCell.Tab.0.bottom" timestamp="1590657270873">
+    <state x="93" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1590775381808">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="130" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590657270873" />
-    <state width="1236" height="130" key="GridCell.Tab.0.center" timestamp="1590657270872">
+    <state x="93" y="93" width="1095" height="535" key="DiffContextDialog/0.0.1280.720@0.0.1280.720" timestamp="1590775381808" />
+    <state width="1236" height="190" key="GridCell.Tab.0.bottom" timestamp="1590777628574">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="130" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590657270872" />
-    <state width="1236" height="130" key="GridCell.Tab.0.left" timestamp="1590657270872">
+    <state width="1236" height="190" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590777628574" />
+    <state width="1236" height="190" key="GridCell.Tab.0.center" timestamp="1590777628574">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="130" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590657270872" />
-    <state width="1236" height="130" key="GridCell.Tab.0.right" timestamp="1590657270872">
+    <state width="1236" height="190" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590777628574" />
+    <state width="1236" height="190" key="GridCell.Tab.0.left" timestamp="1590777628574">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="130" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590657270872" />
-    <state width="1236" height="199" key="GridCell.Tab.1.bottom" timestamp="1590657263478">
+    <state width="1236" height="190" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590777628574" />
+    <state width="1236" height="190" key="GridCell.Tab.0.right" timestamp="1590777628574">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="199" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590657263478" />
-    <state width="1236" height="199" key="GridCell.Tab.1.center" timestamp="1590657263478">
+    <state width="1236" height="190" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590777628574" />
+    <state width="1236" height="190" key="GridCell.Tab.1.bottom" timestamp="1590777628575">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="199" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1590657263478" />
-    <state width="1236" height="199" key="GridCell.Tab.1.left" timestamp="1590657263478">
+    <state width="1236" height="190" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590777628575" />
+    <state width="1236" height="190" key="GridCell.Tab.1.center" timestamp="1590777628574">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="199" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1590657263478" />
-    <state width="1236" height="199" key="GridCell.Tab.1.right" timestamp="1590657263478">
+    <state width="1236" height="190" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1590777628574" />
+    <state width="1236" height="190" key="GridCell.Tab.1.left" timestamp="1590777628574">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="199" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1590657263478" />
+    <state width="1236" height="190" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1590777628574" />
+    <state width="1236" height="190" key="GridCell.Tab.1.right" timestamp="1590777628575">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="190" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1590777628575" />
     <state x="142" y="6" key="SettingsEditor" timestamp="1590659752674">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1590659752674" />
+    <state width="647" height="367" key="XDebugger.FullValuePopup" timestamp="1590776151226">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="647" height="367" key="XDebugger.FullValuePopup/0.0.1280.720@0.0.1280.720" timestamp="1590776151226" />
     <state x="297" y="161" key="run.anything.popup" timestamp="1590385911707">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

@@ -12,6 +12,7 @@ std::list<testCard*> parserTXT::parseFile(std::ifstream &file) {
 
     string s;
     getline(file, s);
+
     while (!file.eof()) {
         testCard *card = new testCard;
         for (int i = 4; i < s.length(); i++)

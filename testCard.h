@@ -17,6 +17,7 @@ public:
     static short globalmistakes;
     short mistakes = 0;
     bool true_anwsered;
+
 };
 
 

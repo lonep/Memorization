@@ -14,7 +14,9 @@ public:
     std::string question;
     std::string trueAn;
     std::vector <std::string> falseAn;
+    static short globalmistakes;
     short mistakes = 0;
+    bool true_anwsered;
 };
 
 

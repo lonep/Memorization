@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/memorization.dir/main.cpp.obj"
-  "CMakeFiles/memorization.dir/txtParser.cpp.obj"
+  "CMakeFiles/memorization.dir/parserJSON.cpp.obj"
+  "CMakeFiles/memorization.dir/parserTXT.cpp.obj"
   "libmemorization.dll.a"
   "memorization.exe"
   "memorization.exe.manifest"

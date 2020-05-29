@@ -69,34 +69,49 @@ CMakeFiles/memorization.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memorization.dir/main.cpp.s"
 	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lonep\Documents\GitHub\Memorization\main.cpp -o CMakeFiles\memorization.dir\main.cpp.s
 
-CMakeFiles/memorization.dir/txtParser.cpp.obj: CMakeFiles/memorization.dir/flags.make
-CMakeFiles/memorization.dir/txtParser.cpp.obj: ../txtParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/memorization.dir/txtParser.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\txtParser.cpp.obj -c C:\Users\lonep\Documents\GitHub\Memorization\txtParser.cpp
+CMakeFiles/memorization.dir/parserTXT.cpp.obj: CMakeFiles/memorization.dir/flags.make
+CMakeFiles/memorization.dir/parserTXT.cpp.obj: ../parserTXT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/memorization.dir/parserTXT.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\parserTXT.cpp.obj -c C:\Users\lonep\Documents\GitHub\Memorization\parserTXT.cpp
 
-CMakeFiles/memorization.dir/txtParser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memorization.dir/txtParser.cpp.i"
-	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lonep\Documents\GitHub\Memorization\txtParser.cpp > CMakeFiles\memorization.dir\txtParser.cpp.i
+CMakeFiles/memorization.dir/parserTXT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memorization.dir/parserTXT.cpp.i"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lonep\Documents\GitHub\Memorization\parserTXT.cpp > CMakeFiles\memorization.dir\parserTXT.cpp.i
 
-CMakeFiles/memorization.dir/txtParser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memorization.dir/txtParser.cpp.s"
-	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lonep\Documents\GitHub\Memorization\txtParser.cpp -o CMakeFiles\memorization.dir\txtParser.cpp.s
+CMakeFiles/memorization.dir/parserTXT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memorization.dir/parserTXT.cpp.s"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lonep\Documents\GitHub\Memorization\parserTXT.cpp -o CMakeFiles\memorization.dir\parserTXT.cpp.s
+
+CMakeFiles/memorization.dir/parserJSON.cpp.obj: CMakeFiles/memorization.dir/flags.make
+CMakeFiles/memorization.dir/parserJSON.cpp.obj: ../parserJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/memorization.dir/parserJSON.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\parserJSON.cpp.obj -c C:\Users\lonep\Documents\GitHub\Memorization\parserJSON.cpp
+
+CMakeFiles/memorization.dir/parserJSON.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memorization.dir/parserJSON.cpp.i"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lonep\Documents\GitHub\Memorization\parserJSON.cpp > CMakeFiles\memorization.dir\parserJSON.cpp.i
+
+CMakeFiles/memorization.dir/parserJSON.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memorization.dir/parserJSON.cpp.s"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lonep\Documents\GitHub\Memorization\parserJSON.cpp -o CMakeFiles\memorization.dir\parserJSON.cpp.s
 
 # Object files for target memorization
 memorization_OBJECTS = \
 "CMakeFiles/memorization.dir/main.cpp.obj" \
-"CMakeFiles/memorization.dir/txtParser.cpp.obj"
+"CMakeFiles/memorization.dir/parserTXT.cpp.obj" \
+"CMakeFiles/memorization.dir/parserJSON.cpp.obj"
 
 # External object files for target memorization
 memorization_EXTERNAL_OBJECTS =
 
 memorization.exe: CMakeFiles/memorization.dir/main.cpp.obj
-memorization.exe: CMakeFiles/memorization.dir/txtParser.cpp.obj
+memorization.exe: CMakeFiles/memorization.dir/parserTXT.cpp.obj
+memorization.exe: CMakeFiles/memorization.dir/parserJSON.cpp.obj
 memorization.exe: CMakeFiles/memorization.dir/build.make
 memorization.exe: CMakeFiles/memorization.dir/linklibs.rsp
 memorization.exe: CMakeFiles/memorization.dir/objects1.rsp
 memorization.exe: CMakeFiles/memorization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable memorization.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable memorization.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\memorization.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

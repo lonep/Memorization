@@ -7,7 +7,7 @@
 #include "testCard.h"
 #include <fstream>
 #include <list>
-class parser {
+class reader {
 public:
     virtual std::list<testCard*> parseFile(std::ifstream &file) = 0;
 };

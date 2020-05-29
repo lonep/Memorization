@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
-#include "parserTXT.h"
-#include "parserJSON.h"
+#include "readerTXT.h"
+#include "readerJSON.h"
 int main() {
-
+   
 }

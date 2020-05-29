@@ -148,7 +148,7 @@ enum ParseFlag {
     kParseInsituFlag = 1,           //!< In-situ(destructive) parsing.
     kParseValidateEncodingFlag = 2, //!< Validate encoding of JSON strings.
     kParseIterativeFlag = 4,        //!< Iterative(constant complexity in terms of function call stack size) parsing.
-    kParseStopWhenDoneFlag = 8,     //!< After parsing a complete JSON root from stream, stop further processing the rest of stream. When this flag is used, parser will not generate kParseErrorDocumentRootNotSingular error.
+    kParseStopWhenDoneFlag = 8,     //!< After parsing a complete JSON root from stream, stop further processing the rest of stream. When this flag is used, reader will not generate kParseErrorDocumentRootNotSingular error.
     kParseFullPrecisionFlag = 16,   //!< Parse number in full precision (but slower).
     kParseCommentsFlag = 32,        //!< Allow one-line (//) and multi-line (/**/) comments.
     kParseNumbersAsStringsFlag = 64,    //!< Parse all numbers (ints/doubles) as strings.
@@ -519,7 +519,7 @@ template<> inline void SkipWhitespace(EncodedInputStream<UTF8<>, MemoryStream>& 
 ///////////////////////////////////////////////////////////////////////////////
 // GenericReader
 
-//! SAX-style JSON parser. Use \ref Reader for UTF8 encoding and default allocator.
+//! SAX-style JSON reader. Use \ref Reader for UTF8 encoding and default allocator.
 /*! GenericReader parses JSON text from a stream, and send events synchronously to an
     object implementing Handler concept.
 

@@ -2,11 +2,11 @@
 // Created by lonep on 22-May-20.
 //
 #include <iostream>
-#include "parserTXT.h"
+#include "readerTXT.h"
 #include <string>
 #include <sstream>
 
-std::list<testCard*> parserTXT::parseFile(std::ifstream &file) {
+std::list<testCard*> readerTXT::parseFile(std::ifstream &file) {
     std::list<testCard*> cardList;
 
 

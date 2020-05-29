@@ -2,13 +2,13 @@
 // Created by lonep on 29-May-20.
 //
 
-#include "parserJSON.h"
+#include "readerJSON.h"
 #include "rapidjson/document.h"
 #include <iostream>
 #include "testCard.h"
 #include "rapidjson/istreamwrapper.h"
 using namespace rapidjson;
-std::list<testCard*> parserJSON::parseFile(std::ifstream &file) {
+std::list<testCard*> readerJSON::parseFile(std::ifstream &file) {
     std::list<testCard*> testCards;
     Document doc;
     IStreamWrapper js(file);

@@ -4,36 +4,37 @@
 
 #include "writerTXT.h"
 
-bool writerTXT::isPATHCorrect(std::string path) {
+bool writerTXT::isPATHCorrect(std::string& path) {
     std::ifstream input(path);
     if(input.is_open()){
         input.close();
         return true;
     }
-    else return false;
+    else{
+        path += "test.txt";
+        input.open(path);
+        if(input.is_open()){
+            input.close();
+            return true;
+        }
+        else return false;
+    }
 }
 
 void writerTXT::setPATH(std::string str){
     if(writerTXT::isPATHCorrect(str))
         PATH = str;
 }
+void writerTXT::setCARDS() {
 
+}
 void writerTXT::write() {
     std::string str;
-    std::ifstream input(PATH);
-    while(!input.eof()){
-        std::getline(input,str);
-        if(str[0] == '\\' && str[1] == 'q') {
-            str.erase(0,2);
-            card.question = str;
-        }
-        if(str[0] == '\\' && str[1] == 'q') {
-            str.erase(0,2);
-            card.trueAn = str;
-        }
-        if(str[0] == '\\' && str[1] == 'q') {
-            str.erase(0, 2);
-            card.falseAn.push_back(str);
-        }
+    std::ofstream input(PATH);
+    for(auto n = cards.begin();n != cards.end(); n++){
+        input << "<q> " << n->question << '\n';
+        input << "<t> " << n->trueAn << '\n';
+        for(std::string str: n->falseAn)
+            input << "<f> " << str << '\n';
     }
 }

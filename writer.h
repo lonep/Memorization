@@ -7,14 +7,16 @@
 
 #include <fstream>
 #include <string>
+#include <list>
 #include "testCard.h"
 
 class writer {
 protected:
     std::string PATH;
-    testCard card;
+    std::list<testCard> cards;
 public:
     virtual void setPATH(std::string path) = 0;
+    virtual void setCARDS() = 0;
     virtual void write() = 0;
 };
 

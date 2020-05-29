@@ -13,7 +13,8 @@ class writerTXT: public writer {
 public:
     void setPATH(std::string str) override;
     void write() override;
-    static bool isPATHCorrect(std::string path);
+    void setCARDS() override;
+    static bool isPATHCorrect(std::string& path);
 };
 
 

@@ -3,4 +3,4 @@ project(memorization)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(memorization main.cpp parser.h testCard.h txtParser.cpp txtParser.h)
+add_executable(memorization main.cpp parser.h testCard.h txtParser.cpp txtParser.h rapidjson)

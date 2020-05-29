@@ -15,6 +15,6 @@ std::list<testCard*> parserJSON::parseFile(std::ifstream &file) {
     Document doc;
     IStreamWrapper js(file);
     doc.ParseStream(js);
-    assert(doc["name"].IsString());
     std::string s = doc["name"].GetString();
+    std::cout << s;
 }

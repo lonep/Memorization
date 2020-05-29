@@ -16,18 +16,15 @@ std::list<testCard*> txtParser::parseFile(std::ifstream &file) {
         testCard *card = new testCard;
         for (int i = 4; i < s.length(); i++)
             card->question += s[i];
-        cout << card->question << '\n';
         getline(file, s);
         for (int i = 4; i < s.length(); i++)
             card->trueAn += s[i];
-        cout << card->trueAn << '\n';
         getline(file, s);
         stringstream f;
         while (s[1] == 'f' && s.length()>0) {
             for (int i = 4; i < s.length(); i++)
                 f << s[i];
             card->falseAn.push_back(f.str());
-            cout << card->falseAn.back() << '\n';
             f.str("");
             f.clear();
             getline(file, s);

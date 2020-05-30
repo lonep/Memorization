@@ -11,12 +11,12 @@ iostream
 -
 fstream
 -
-parserTXT.h
-C:/Users/lonep/Documents/GitHub/Memorization/parserTXT.h
-parserJSON.h
-C:/Users/lonep/Documents/GitHub/Memorization/parserJSON.h
+readerTXT.h
+C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.h
+readerJSON.h
+C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.h
 
-C:/Users/lonep/Documents/GitHub/Memorization/parser.h
+C:/Users/lonep/Documents/GitHub/Memorization/reader.h
 testCard.h
 C:/Users/lonep/Documents/GitHub/Memorization/testCard.h
 fstream
@@ -24,13 +24,13 @@ fstream
 list
 -
 
-C:/Users/lonep/Documents/GitHub/Memorization/parserJSON.h
-parser.h
-C:/Users/lonep/Documents/GitHub/Memorization/parser.h
+C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.h
+reader.h
+C:/Users/lonep/Documents/GitHub/Memorization/reader.h
 
-C:/Users/lonep/Documents/GitHub/Memorization/parserTXT.h
-parser.h
-C:/Users/lonep/Documents/GitHub/Memorization/parser.h
+C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.h
+reader.h
+C:/Users/lonep/Documents/GitHub/Memorization/reader.h
 fstream
 -
 string

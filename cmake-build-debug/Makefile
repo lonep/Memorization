@@ -149,59 +149,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-parserJSON.obj: parserJSON.cpp.obj
+readerJSON.obj: readerJSON.cpp.obj
 
-.PHONY : parserJSON.obj
-
-# target to build an object file
-parserJSON.cpp.obj:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserJSON.cpp.obj
-.PHONY : parserJSON.cpp.obj
-
-parserJSON.i: parserJSON.cpp.i
-
-.PHONY : parserJSON.i
-
-# target to preprocess a source file
-parserJSON.cpp.i:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserJSON.cpp.i
-.PHONY : parserJSON.cpp.i
-
-parserJSON.s: parserJSON.cpp.s
-
-.PHONY : parserJSON.s
-
-# target to generate assembly for a file
-parserJSON.cpp.s:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserJSON.cpp.s
-.PHONY : parserJSON.cpp.s
-
-parserTXT.obj: parserTXT.cpp.obj
-
-.PHONY : parserTXT.obj
+.PHONY : readerJSON.obj
 
 # target to build an object file
-parserTXT.cpp.obj:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserTXT.cpp.obj
-.PHONY : parserTXT.cpp.obj
+readerJSON.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/readerJSON.cpp.obj
+.PHONY : readerJSON.cpp.obj
 
-parserTXT.i: parserTXT.cpp.i
+readerJSON.i: readerJSON.cpp.i
 
-.PHONY : parserTXT.i
+.PHONY : readerJSON.i
 
 # target to preprocess a source file
-parserTXT.cpp.i:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserTXT.cpp.i
-.PHONY : parserTXT.cpp.i
+readerJSON.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/readerJSON.cpp.i
+.PHONY : readerJSON.cpp.i
 
-parserTXT.s: parserTXT.cpp.s
+readerJSON.s: readerJSON.cpp.s
 
-.PHONY : parserTXT.s
+.PHONY : readerJSON.s
 
 # target to generate assembly for a file
-parserTXT.cpp.s:
-	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/parserTXT.cpp.s
-.PHONY : parserTXT.cpp.s
+readerJSON.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/readerJSON.cpp.s
+.PHONY : readerJSON.cpp.s
+
+readerTXT.obj: readerTXT.cpp.obj
+
+.PHONY : readerTXT.obj
+
+# target to build an object file
+readerTXT.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/readerTXT.cpp.obj
+.PHONY : readerTXT.cpp.obj
+
+readerTXT.i: readerTXT.cpp.i
+
+.PHONY : readerTXT.i
+
+# target to preprocess a source file
+readerTXT.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/readerTXT.cpp.i
+.PHONY : readerTXT.cpp.i
+
+readerTXT.s: readerTXT.cpp.s
+
+.PHONY : readerTXT.s
+
+# target to generate assembly for a file
+readerTXT.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/readerTXT.cpp.s
+.PHONY : readerTXT.cpp.s
 
 # Help Target
 help:
@@ -215,12 +215,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... parserJSON.obj
-	@echo ... parserJSON.i
-	@echo ... parserJSON.s
-	@echo ... parserTXT.obj
-	@echo ... parserTXT.i
-	@echo ... parserTXT.s
+	@echo ... readerJSON.obj
+	@echo ... readerJSON.i
+	@echo ... readerJSON.s
+	@echo ... readerTXT.obj
+	@echo ... readerTXT.i
+	@echo ... readerTXT.s
 .PHONY : help
 
 

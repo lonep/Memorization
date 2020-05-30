@@ -17,8 +17,10 @@ std::list<testCard*> readerJSON::parseFile(std::ifstream &file) {
         testCard *card = new testCard;
         card->question = doc["cards"][i]["question"].GetString();
         card->trueAn = doc["cards"][i]["true"].GetString();
-        for (int j = 0; j < doc["cards"][i]["false"].Size(); j++){
-            card->falseAn.push_back(doc["cards"][i]["false"][j].GetString());
+        if(doc["cards"][i].HasMember("false")) {
+            for (int j = 0; j < doc["cards"][i]["false"].Size(); j++) {
+                card->falseAn.push_back(doc["cards"][i]["false"][j].GetString());
+            }
         }
         testCards.push_back(card);
     }

@@ -83,22 +83,22 @@
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/main.cpp">
 			<Option target="memorization"/>
 		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/parser.h">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/parserJSON.cpp">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/parserJSON.h">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/parserTXT.cpp">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/parserTXT.h">
-			<Option target="memorization"/>
-		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/rapidjson">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/reader.h">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.h">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.h">
 			<Option target="memorization"/>
 		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/testCard.h">

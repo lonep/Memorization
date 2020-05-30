@@ -8,8 +8,6 @@
 
 std::list<testCard*> readerTXT::parseFile(std::ifstream &file) {
     std::list<testCard*> cardList;
-
-
     string s;
     getline(file, s);
 

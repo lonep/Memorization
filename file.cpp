@@ -5,8 +5,8 @@
 #include "file.h"
 #include <fstream>
 void file::read() {
-    if(PATH.find(".json") != -1){
-    ifstream json;
+    if(PATH.find(".json") != -1){ //Просто проверяем наличие такого типа в пути
+    ifstream json;                   // -1 это значит подстрока не найдена
     json.open(PATH);
     readerJSON reader;
     testCards = reader.parseFile(json);
@@ -16,7 +16,7 @@ void file::read() {
     ifstream txt;
     txt.open(PATH);
     readerTXT reader;
-    testCards = reader.parseFile(txt);
+    testCards = reader.parseFile(txt); //reader возвращает массив указателей на testCard
     txt.close();
     }
 }

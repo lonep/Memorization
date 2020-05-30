@@ -18,6 +18,7 @@ protected:
     std::string PATH;
     std::list<testCard*> testCards;
 public:
+        //TODO transerToManager
     void transferToManager();
     void write();
     void read();

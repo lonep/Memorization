@@ -8,18 +8,20 @@
 #include "writerJSON.h"
 #include "writerTXT.h"
 #include "testCard.h"
-//#include "readerJSON.h"
-//#include "readerTXT.h"
+#include "readerJSON.h"
+#include "readerTXT.h"
 #include <list>
+
 
 class file {
 protected:
     std::string PATH;
-    writer* WRITER;
-    //reader* READER;
-    std::list<testCard> QUESTIONS;
+    std::list<testCard*> testCards;
 public:
     void transferToManager();
+    void write();
+    void read();
+    void getPATH(string s);
 };
 
 

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/memorization.dir/file.cpp.obj"
   "CMakeFiles/memorization.dir/main.cpp.obj"
   "CMakeFiles/memorization.dir/readerJSON.cpp.obj"
   "CMakeFiles/memorization.dir/readerTXT.cpp.obj"

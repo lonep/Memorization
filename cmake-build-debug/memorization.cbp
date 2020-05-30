@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/file.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/file.h">
+			<Option target="memorization"/>
+		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/main.cpp">
 			<Option target="memorization"/>
 		</Unit>

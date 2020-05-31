@@ -42,3 +42,30 @@ CMakeFiles/memorization.dir/readerTXT.cpp.obj: ../readerTXT.cpp
 CMakeFiles/memorization.dir/readerTXT.cpp.obj: ../readerTXT.h
 CMakeFiles/memorization.dir/readerTXT.cpp.obj: ../testCard.h
 
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/allocators.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/document.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/encodedstream.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/encodings.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/error/error.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/biginteger.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/clzll.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/diyfp.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/ieee754.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/meta.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/pow10.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/stack.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/strfunc.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/strtod.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/swap.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/istreamwrapper.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/memorystream.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/msinttypes/inttypes.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/msinttypes/stdint.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/rapidjson.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/reader.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/stream.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../testCard.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../writer.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../writerJSON.cpp
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../writerJSON.h
+

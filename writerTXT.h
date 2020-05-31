@@ -11,8 +11,8 @@
 
 class writerTXT: public writer {
 public:
-    void setPATH(std::string str) override;
-    void write() override;
+    void setPATH(std::string str);
+    void write() ;
     static bool isPATHCorrect(std::string path);
 };
 

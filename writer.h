@@ -8,14 +8,15 @@
 #include <fstream>
 #include <string>
 #include "testCard.h"
+#include <list>
 
 class writer {
 protected:
-    std::string PATH;
-    testCard card;
+    //std::string PATH;
+    //testCard card;
 public:
-    virtual void setPATH(std::string path) = 0;
-    virtual void write() = 0;
+    //virtual void setPATH(std::string path) = 0;
+    virtual std::list<testCard*> write(std::ofstream file, std::list<testCard*> testCards) = 0;
 };
 
 

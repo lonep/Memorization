@@ -230,6 +230,33 @@ readerTXT.cpp.s:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/readerTXT.cpp.s
 .PHONY : readerTXT.cpp.s
 
+writerJSON.obj: writerJSON.cpp.obj
+
+.PHONY : writerJSON.obj
+
+# target to build an object file
+writerJSON.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerJSON.cpp.obj
+.PHONY : writerJSON.cpp.obj
+
+writerJSON.i: writerJSON.cpp.i
+
+.PHONY : writerJSON.i
+
+# target to preprocess a source file
+writerJSON.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerJSON.cpp.i
+.PHONY : writerJSON.cpp.i
+
+writerJSON.s: writerJSON.cpp.s
+
+.PHONY : writerJSON.s
+
+# target to generate assembly for a file
+writerJSON.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerJSON.cpp.s
+.PHONY : writerJSON.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,6 +278,9 @@ help:
 	@echo ... readerTXT.obj
 	@echo ... readerTXT.i
 	@echo ... readerTXT.s
+	@echo ... writerJSON.obj
+	@echo ... writerJSON.i
+	@echo ... writerJSON.s
 .PHONY : help
 
 

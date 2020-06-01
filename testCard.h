@@ -17,7 +17,7 @@ public:
     std::vector <std::string> falseAn;
     static short globalmistakes;
     short mistakes = 0;
-    bool true_anwsered = false;
+    bool true_answered = false;
 
 };
 

@@ -230,6 +230,33 @@ readerTXT.cpp.s:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/readerTXT.cpp.s
 .PHONY : readerTXT.cpp.s
 
+testCard.obj: testCard.cpp.obj
+
+.PHONY : testCard.obj
+
+# target to build an object file
+testCard.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/testCard.cpp.obj
+.PHONY : testCard.cpp.obj
+
+testCard.i: testCard.cpp.i
+
+.PHONY : testCard.i
+
+# target to preprocess a source file
+testCard.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/testCard.cpp.i
+.PHONY : testCard.cpp.i
+
+testCard.s: testCard.cpp.s
+
+.PHONY : testCard.s
+
+# target to generate assembly for a file
+testCard.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/testCard.cpp.s
+.PHONY : testCard.cpp.s
+
 writerJSON.obj: writerJSON.cpp.obj
 
 .PHONY : writerJSON.obj
@@ -278,6 +305,9 @@ help:
 	@echo ... readerTXT.obj
 	@echo ... readerTXT.i
 	@echo ... readerTXT.s
+	@echo ... testCard.obj
+	@echo ... testCard.i
+	@echo ... testCard.s
 	@echo ... writerJSON.obj
 	@echo ... writerJSON.i
 	@echo ... writerJSON.s

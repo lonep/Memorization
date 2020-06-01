@@ -107,6 +107,9 @@
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.h">
 			<Option target="memorization"/>
 		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/testCard.cpp">
+			<Option target="memorization"/>
+		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/testCard.h">
 			<Option target="memorization"/>
 		</Unit>

@@ -11,6 +11,7 @@
 
 class testCard {
 public:
+    bool checkAnwser(std::string anwser);
     std::string question;
     std::string trueAn;
     std::vector <std::string> falseAn;

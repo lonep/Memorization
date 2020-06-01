@@ -4,20 +4,18 @@
 
 #include "file.h"
 #include <fstream>
-void file::read() {
+std::list<testCard*> file::read() {
     if(PATH.find(".json") != -1){
     ifstream json;
     json.open(PATH);
     readerJSON reader;
-    testCards = reader.parseFile(json);
-    json.close();
+    return reader.parseFile(json);
     }
     if(PATH.find(".txt") != -1){
     ifstream txt;
     txt.open(PATH);
     readerTXT reader;
-    testCards = reader.parseFile(txt);
-    txt.close();
+    return reader.parseFile(txt);
     }
 }
 

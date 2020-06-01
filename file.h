@@ -16,8 +16,8 @@
 class file {
     std::string PATH;
 public:
-    void write();
-    void read();
+    void write(); //todo Этот метод
+    std::list<testCard*>  read();
     bool getPATH(string s); //Возвращает 0 если путь некорректен и 1 если путь корректен.
                             //Если путь корректен, то PATH=s(путь пользователя)
 };

@@ -92,6 +92,7 @@
       <workItem from="1590781091028" duration="2807000" />
       <workItem from="1590822134611" duration="1817000" />
       <workItem from="1590865572941" duration="2994000" />
+      <workItem from="1591001199185" duration="641000" />
     </task>
     <servers />
   </component>
@@ -171,11 +172,6 @@
           <url>file://$PROJECT_DIR$/readerTXT.cpp</url>
           <line>33</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/file.cpp</url>
-          <line>19</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>

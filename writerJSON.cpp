@@ -9,8 +9,28 @@
 using namespace rapidjson;
 std::list<testCard*> writerJSON::write(std::ofstream file, std::list<testCard*> testCards) {
     Document doc;
-    std::string s = "kek";
-   Document::AllocatorType& allocator = doc.GetAllocator();
-   doc.AddMember("hello",s, allocator);
+    doc.SetArray();
+    Document::AllocatorType& allocator = doc.GetAllocator();
+    Value object(kObjectType);
+    Value question;
+    Value falseAn(kArrayType);
+    Value fl;
+
+     for (int i = 0; i < testCards.size(); i++){
+         question.SetString(testCards.back()->question.c_str(),allocator);
+         object.AddMember("question", question,allocator);
+
+         question.SetString(testCards.back()->trueAn.c_str(),allocator);
+         object.AddMember("true", question,allocator);
+
+         for(int j = 0; j <  testCards.back()->falseAn.size(); j++) {
+             fl.SetString(testCards.back()->falseAn[j].c_str(), allocator);
+             falseAn.PushBack(fl, allocator);
+         }
+         object.AddMember("false", falseAn, allocator);
+         doc.PushBack(object, allocator);
+         delete testCards.back();
+         testCards.pop_back();
+     }
     }
 

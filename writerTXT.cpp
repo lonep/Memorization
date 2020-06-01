@@ -3,7 +3,6 @@
 //
 
 #include "writerTXT.h"
-
 void writerTXT::write() {
     std::string str;
     std::ifstream input(PATH);

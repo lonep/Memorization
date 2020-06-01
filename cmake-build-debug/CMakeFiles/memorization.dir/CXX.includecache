@@ -68,7 +68,19 @@ limits
 intrin.h
 -
 
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/dtoa.h
+itoa.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/itoa.h
+diyfp.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/diyfp.h
+ieee754.h
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/ieee754.h
+
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/ieee754.h
+../rapidjson.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/rapidjson.h
+
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/itoa.h
 ../rapidjson.h
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/rapidjson.h
 
@@ -206,6 +218,44 @@ C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/rapidjson.h
 encodings.h
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/encodings.h
 
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/stringbuffer.h
+stream.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/stream.h
+internal/stack.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/stack.h
+utility
+-
+internal/stack.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/stack.h
+
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/writer.h
+stream.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/stream.h
+internal/clzll.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/clzll.h
+internal/meta.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/meta.h
+internal/stack.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/stack.h
+internal/strfunc.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/strfunc.h
+internal/dtoa.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/dtoa.h
+internal/itoa.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/itoa.h
+stringbuffer.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/stringbuffer.h
+new
+-
+intrin.h
+-
+nmmintrin.h
+-
+emmintrin.h
+-
+arm_neon.h
+-
+
 C:/Users/lonep/Documents/GitHub/Memorization/testCard.h
 string
 -
@@ -227,6 +277,8 @@ writerJSON.h
 C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.h
 rapidjson/document.h
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/document.h
+rapidjson/writer.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/writer.h
 rapidjson/istreamwrapper.h
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/istreamwrapper.h
 

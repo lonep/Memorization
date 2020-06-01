@@ -14,14 +14,12 @@
 
 
 class file {
-protected:
     std::string PATH;
-    std::list<testCard*> testCards;
 public:
-    void transferToManager();
     void write();
     void read();
-    void getPATH(string s);
+    bool getPATH(string s); //Возвращает 0 если путь некорректен и 1 если путь корректен.
+                            //Если путь корректен, то PATH=s(путь пользователя)
 };
 
 

@@ -21,6 +21,12 @@ void file::read() {
     }
 }
 
-void file::getPATH(string s) {
-    PATH = s;
+bool file::getPATH(string s) {
+    ifstream test;
+    test.open(PATH);
+    if(test.is_open()) {
+        PATH = s;
+        return 1;
+    }
+    else return 0;
 }

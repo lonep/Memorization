@@ -126,14 +126,6 @@ C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/swap.h
 ../rapidjson.h
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/rapidjson.h
 
-C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/istreamwrapper.h
-stream.h
-C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/stream.h
-iosfwd
--
-ios
--
-
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/memorystream.h
 stream.h
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/stream.h
@@ -150,6 +142,12 @@ stdint.h
 limits.h
 -
 wchar.h
+-
+
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/ostreamwrapper.h
+stream.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/stream.h
+iosfwd
 -
 
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/rapidjson.h
@@ -279,8 +277,8 @@ rapidjson/document.h
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/document.h
 rapidjson/writer.h
 C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/writer.h
-rapidjson/istreamwrapper.h
-C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/istreamwrapper.h
+rapidjson/ostreamwrapper.h
+C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/ostreamwrapper.h
 
 C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.h
 writer.h

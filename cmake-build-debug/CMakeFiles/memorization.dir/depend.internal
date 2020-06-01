@@ -60,10 +60,10 @@ CMakeFiles/memorization.dir/writerJSON.cpp.obj
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/strfunc.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/strtod.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/swap.h
- C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/istreamwrapper.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/memorystream.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/msinttypes/inttypes.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/msinttypes/stdint.h
+ C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/ostreamwrapper.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/rapidjson.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/reader.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/stream.h

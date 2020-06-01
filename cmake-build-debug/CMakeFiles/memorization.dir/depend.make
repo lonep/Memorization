@@ -59,10 +59,10 @@ CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/stack.h
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/strfunc.h
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/strtod.h
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/internal/swap.h
-CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/istreamwrapper.h
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/memorystream.h
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/msinttypes/inttypes.h
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/msinttypes/stdint.h
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/ostreamwrapper.h
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/rapidjson.h
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/reader.h
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../rapidjson/stream.h

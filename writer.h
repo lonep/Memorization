@@ -12,7 +12,7 @@
 
 class writer {
 public:
-    virtual std::list<testCard*> write(std::ofstream file, std::list<testCard*> testCards) = 0;
+    virtual void write(std::ofstream &file, std::list<testCard*> &testCards) = 0;
 };
 
 

@@ -37,30 +37,31 @@ std::string IO_Module::create_path()
 	return path;
 }
 
-void IO_Module::show_card(TestCard card)
+void IO_Module::show_card(std::string question, std::vector<std::string> answers)
 {
-	std::cout << card.question << '\n' << '\n';
+	std::cout << question << '\n' << '\n';
 	int count = 1;
-	for (int i = 0; i < card.*здесь должен быть вектор с ответами на вопрос * .size(); i++)
+	for (int i = 0; i < answers.size(); i++)
 	{
-		std::cout << count << ". " << card.falseAn[i] << '\n';
+		std::cout << count << ". " << answers[i] << '\n';
 		count++;
 	}
 }
 
-char IO_Module::get_answer()
+std::string IO_Module::get_answer(std::vector<std::string> answers)
 {
-	char answer = '0';
+	std::string answer = "0";
 	int count = 1;
 	std::cout << "Введите Ваш ответ: ";
 	while (count)
 	{
 		std::cin >> answer;
-		if (answer < 49 || answer > 57)
+		if (answer !="1" || answer != "2" || answer != "3" || answer != "4")
 			std::cout << "Некорректный ввод. Попробуйте снова: ";
 		else count = 0;
 	}
-	return answer;
+	int answ = stoi(answer);
+	return answers[--answ];
 }
 
 

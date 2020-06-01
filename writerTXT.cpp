@@ -3,7 +3,7 @@
 //
 
 #include "writerTXT.h"
-void writerTXT::write() {
+void writerTXT::write(std::ofstream, std::list<testCard*> &testCards) {
     std::string str;
     std::ifstream input(PATH);
     while(!input.eof()){

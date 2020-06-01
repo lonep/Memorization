@@ -18,6 +18,21 @@ std::list<testCard*> file::read() {
     return reader.parseFile(txt);
     }
 }
+void file::write(std::list<testCard *> testCards) {
+    if(PATH.find(".json") != -1){
+        ofstream json;
+        json.open(PATH);
+        writerJSON write;
+        write.write(json, testCards);
+
+    }
+    if(PATH.find(".txt") != -1){
+        ofstream txt;
+        txt.open(PATH);
+        writerTXT write;
+        write.write(txt, testCards);
+    }
+}
 
 bool file::getPATH(string s) {
     ifstream test;

@@ -119,6 +119,9 @@
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.h">
 			<Option target="memorization"/>
 		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/writerTXT.h">
+			<Option target="memorization"/>
+		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

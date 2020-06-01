@@ -4,20 +4,6 @@
 
 #include "writerTXT.h"
 
-bool writerTXT::isPATHCorrect(std::string path) {
-    std::ifstream input(path);
-    if(input.is_open()){
-        input.close();
-        return true;
-    }
-    else return false;
-}
-
-void writerTXT::setPATH(std::string str){
-    if(writerTXT::isPATHCorrect(str))
-        PATH = str;
-}
-
 void writerTXT::write() {
     std::string str;
     std::ifstream input(PATH);

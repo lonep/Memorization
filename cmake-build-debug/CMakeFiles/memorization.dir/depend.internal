@@ -51,20 +51,24 @@ CMakeFiles/memorization.dir/writerJSON.cpp.obj
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/biginteger.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/clzll.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/diyfp.h
+ C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/dtoa.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/ieee754.h
+ C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/itoa.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/meta.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/pow10.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/stack.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/strfunc.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/strtod.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/internal/swap.h
- C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/istreamwrapper.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/memorystream.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/msinttypes/inttypes.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/msinttypes/stdint.h
+ C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/ostreamwrapper.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/rapidjson.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/reader.h
  C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/stream.h
+ C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/stringbuffer.h
+ C:/Users/lonep/Documents/GitHub/Memorization/rapidjson/writer.h
  C:/Users/lonep/Documents/GitHub/Memorization/testCard.h
  C:/Users/lonep/Documents/GitHub/Memorization/writer.h
  C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.cpp

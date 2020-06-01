@@ -1,15 +1,13 @@
+#include"Mixer.h"
 
-#include <vector>
-
-void Mixer::stir(vector<string> &falseAn)
+void Mixer::stir(std::vector<std::string> &answers)
 {
-	
-	vector<string> temp;
-	while (falseAn.size() != 0)
+	std::vector<std::string> temp;
+	while (answers.size() != 0)
 	{
-		int rnd = rand() % falseAn.size()-1;
-		temp.push_back(falseAn[rnd]);
-		falseAn.erase(falseAn.begin() + rnd);
+		int rnd = rand() % answers.size()-1;
+		temp.push_back(answers[rnd]);
+		answers.erase(answers.begin() + rnd);
 	}
-	falseAn = temp;
+	answers = temp;
 }

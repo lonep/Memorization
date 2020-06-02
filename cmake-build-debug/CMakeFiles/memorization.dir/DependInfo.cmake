@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/lonep/Documents/GitHub/Memorization/file.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/file.cpp.obj"
-  "C:/Users/lonep/Documents/GitHub/Memorization/main.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/main.cpp.obj"
-  "C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/readerJSON.cpp.obj"
-  "C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/readerTXT.cpp.obj"
-  "C:/Users/lonep/Documents/GitHub/Memorization/testCard.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/testCard.cpp.obj"
-  "C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/writerJSON.cpp.obj"
+  "D:/Coding/lonepMemorization/file.cpp" "D:/Coding/lonepMemorization/cmake-build-debug/CMakeFiles/memorization.dir/file.cpp.obj"
+  "D:/Coding/lonepMemorization/main.cpp" "D:/Coding/lonepMemorization/cmake-build-debug/CMakeFiles/memorization.dir/main.cpp.obj"
+  "D:/Coding/lonepMemorization/readerJSON.cpp" "D:/Coding/lonepMemorization/cmake-build-debug/CMakeFiles/memorization.dir/readerJSON.cpp.obj"
+  "D:/Coding/lonepMemorization/readerTXT.cpp" "D:/Coding/lonepMemorization/cmake-build-debug/CMakeFiles/memorization.dir/readerTXT.cpp.obj"
+  "D:/Coding/lonepMemorization/testCard.cpp" "D:/Coding/lonepMemorization/cmake-build-debug/CMakeFiles/memorization.dir/testCard.cpp.obj"
+  "D:/Coding/lonepMemorization/writerJSON.cpp" "D:/Coding/lonepMemorization/cmake-build-debug/CMakeFiles/memorization.dir/writerJSON.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

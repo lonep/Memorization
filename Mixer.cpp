@@ -1,6 +1,6 @@
 #include"Mixer.h"
 
-void Mixer::stir(std::vector<std::string> &answers)
+void Mixer::mixVector(std::vector<std::string> &answers)
 {
 	std::vector<std::string> temp;
 	while (answers.size() != 0)

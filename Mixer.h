@@ -3,5 +3,5 @@
 #include <vector>
 class Mixer {
 public:
-	void stir(std::vector<std::string> &answers);
+	void mixVector(std::vector<std::string> &answers);
 };

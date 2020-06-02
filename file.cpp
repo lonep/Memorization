@@ -36,9 +36,8 @@ void file::write(std::list<testCard *> testCards) {
 
 bool file::getPATH(string s) {
     ifstream test;
-    test.open(PATH);
+    test.open(s);
     if(test.is_open()) {
-        PATH = s;
         return 1;
     }
     else return 0;

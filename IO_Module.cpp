@@ -1,6 +1,16 @@
 #include "IO_Module.h"
 #include "file.h"
 
+void IO_Module::Greeting()
+{
+	std::cout << "Вас привествует программа Memorization!\n";
+	std::cout << "Данная программа предназначена для запоминания какой либо информации путем повторения\n";
+	std::cout << "Вы можете создать вопросы или открыть уже готовый тест\n";
+	std::cout << "Нажмите любую клавишу, чтобы начать работу..."
+	char start = '0';
+	std::cin >> start;
+}
+
 void IO_Module::Menu()
 {
 	std::cout << "Что Вы хотите сделать: \n C - Создать тест; \n O - Открыть существующий.\n";
@@ -22,7 +32,7 @@ void IO_Module::Menu()
 	}
 }
 
-std::string IO_Module::get_path()
+std::string IO_Module::get_PATH()
 {
 	std::string path = "0";
 	std::cout << "Введите путь к файлу: ";
@@ -34,7 +44,7 @@ std::string IO_Module::get_path()
 	return path;
 }
 
-std::string IO_Module::create_path()
+std::string IO_Module::create_PATH()
 {
 	std::string path = "0";
 	std::cout << "Введите путь нового файла: ";

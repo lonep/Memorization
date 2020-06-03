@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\lonep\Documents\GitHub\Memorization
+"D:\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/MinGW/mingw32/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/MinGW/mingw32/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" D:\Coding\lonepMemorization
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug
+-- Build files have been written to: D:/Coding/lonepMemorization/cmake-build-debug

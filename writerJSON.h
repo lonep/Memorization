@@ -11,7 +11,7 @@
 class writerJSON: public writer{
 public:
     //void setPATH(std::string str) override;
-    void write(std::ofstream& file, std::list<testCard*> &testCards) override;
+    void write(std::ofstream& file, std::list<testCard> &testCards) override;
 };
 
 

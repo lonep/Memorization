@@ -19,12 +19,13 @@ std::list<testCard*> file::read() {
     return reader.parseFile(txt);
     }
 }
-void file::write(std::list<testCard *> testCards) {
+void file::write(std::list<testCard> &testCards) {
     if(PATH.find(".json") != -1){
         ofstream json;
         json.open(PATH);
         writerJSON write;
         write.write(json, testCards);
+        json.close();
 
     }
     if(PATH.find(".txt") != -1){
@@ -32,6 +33,7 @@ void file::write(std::list<testCard *> testCards) {
         txt.open(PATH);
         writerTXT write;
         write.write(txt, testCards);
+        txt.close();
     }
 }
 

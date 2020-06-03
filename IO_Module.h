@@ -4,6 +4,7 @@
 
 class IO_Module{
 public:
+    void Greeting();
     void Menu();
     std::string get_PATH();
     std::string create_PATH();

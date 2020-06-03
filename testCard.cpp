@@ -10,4 +10,15 @@ testCard::testCard(std::string &quest, std::string &r_answer, std::vector<std::s
 bool testCard::check(std::string anwser) {
     return anwser == question;
 }
+
 testCard::~testCard() {}
+
+std::string testCard::get_question() {
+    return question;
+}
+std::string testCard::get_trueAnwser() {
+    return true_answer;
+}
+std::vector<std::string> testCard::get_falseAnwser() {
+    return false_answer;
+}

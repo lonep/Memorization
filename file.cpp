@@ -5,7 +5,7 @@
 #include "file.h"
 #include <fstream>
 
-std::list<testCard*> file::read() {
+std::list<testCard> file::read() {
     if(PATH.find(".json") != -1){
     ifstream json;
     json.open(PATH);
@@ -19,7 +19,7 @@ std::list<testCard*> file::read() {
     return reader.parseFile(txt);
     }
 }
-void file::write(std::list<testCard *> testCards) {
+void file::write(std::list<testCard> testCards) {
     if(PATH.find(".json") != -1){
         ofstream json;
         json.open(PATH);

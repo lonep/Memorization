@@ -3,22 +3,17 @@
 //
 
 #include "writerTXT.h"
-void writerTXT::write(std::ofstream, std::list<testCard*> &testCards) {
-    std::string str;
-    std::ifstream input(PATH);
-    while(!input.eof()){
-        std::getline(input,str);
-        if(str[0] == '\\' && str[1] == 'q') {
-            str.erase(0,2);
-            card.question = str;
+void writerTXT::write(std::ofstream &file, std::list<testCard> &testCards) {
+    auto it = testCards.begin();
+    std::vector<std::string> copy = it->get_falseAnwser();
+    auto it_for_copy = copy.begin();
+    while(it!=testCards.end()){
+        file << "<q> " << it->get_question() << '\n';
+        file << "<t> " << it->get_trueAnwser() << '\n';
+        while(it_for_copy != copy.end()) {
+            file << "<f> " << *it_for_copy << '\n';
+            it_for_copy++;
         }
-        if(str[0] == '\\' && str[1] == 'q') {
-            str.erase(0,2);
-            card.trueAn = str;
-        }
-        if(str[0] == '\\' && str[1] == 'q') {
-            str.erase(0, 2);
-            card.falseAn.push_back(str);
-        }
+        it++;
     }
 }

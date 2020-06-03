@@ -17,7 +17,7 @@ class file {
     std::string PATH;
     bool mode;
 public:
-    void write(std::list<testCard*> testCards);
+    void write(std::list<testCard> testCards);
     static bool isPATHCorrect(std::string path);
     std::list<testCard*> read();
 };

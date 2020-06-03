@@ -4,6 +4,7 @@
 
 #include "file.h"
 #include <fstream>
+
 std::list<testCard*> file::read() {
     if(PATH.find(".json") != -1){
     ifstream json;
@@ -34,11 +35,11 @@ void file::write(std::list<testCard *> testCards) {
     }
 }
 
-bool file::getPATH(string s) {
-    ifstream test;
-    test.open(s);
-    if(test.is_open()) {
-        return 1;
+bool file::isPATHCorrect(const std::string path) {
+    std::ifstream tmp(path);
+    if(tmp.is_open()){
+        tmp.close();
+        return true;
     }
-    else return 0;
+    else return false;
 }

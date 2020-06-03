@@ -1,4 +1,5 @@
 #include "IO_Module.h"
+#include "file.h"
 
 void IO_Module::Menu()
 {
@@ -25,7 +26,11 @@ std::string IO_Module::get_path()
 {
 	std::string path = "0";
 	std::cout << "Введите путь к файлу: ";
-	std::cin >> path;
+	do {
+		std::cin >> path;
+		if (!file::isPATHCorrect(path))
+			std::cout << "Введён некорректный путь к файлу. Попробуйте снова: ";
+	} while (!file::isPATHCorrect(path))
 	return path;
 }
 

@@ -62,19 +62,19 @@ void IO_Module::show_card(std::string question, std::vector<std::string> answers
 			switch (j)
 			{
 			case 3:
-				temp = "need to input answer 1"; //answer 1
+				temp = answers[1]; //answer 1
 				break;
 			case 5:
-				temp = "need to input answer 2"; //answer 2
+				temp = answers[2]; //answer 2
 				break;
 			case 7:
-				temp = "need to input answer 3"; //answer 3
+				temp = answers[3]; //answer 3
 				break;
 			case 9:
-				temp = "need to input answer 4"; //answer 4
+				temp = answers[4]; //answer 4
 				break;
 			default :
-				temp = "need to input question"; //question
+				temp = question; //question
 				break;
 			}
 			int counter = 0;

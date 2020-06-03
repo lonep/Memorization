@@ -9,7 +9,7 @@ class TestManager
 	short Counter;
 	std::list <testCard> TestCards;
 public:
-	bool GetAnswer(std::string AnswerNumber);
+	void GetAnswer(std::string AnswerNumber);
 	std::vector <testCard> GiveQuestion();
 	
 };

@@ -5,7 +5,7 @@
 #include "file.h"
 #include <fstream>
 
-std::list<testCard> file::read() {
+std::list<testCard*> file::read() {
     if(PATH.find(".json") != -1){
     ifstream json;
     json.open(PATH);

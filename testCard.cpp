@@ -16,7 +16,7 @@ testCard::~testCard() {}
 std::string testCard::get_question() {
     return question;
 }
-std::string testCard::get_trueAnwser() {
+std::string testCard::get_trueAnswer() {
     return true_answer;
 }
 std::vector<std::string> testCard::get_falseAnwser() {

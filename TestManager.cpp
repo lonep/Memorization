@@ -1,7 +1,7 @@
 #include "TestCard.h"
 #include "TestManager.h"
 
-bool TestManager::GetAnswer(std::string AnswerNumber)
+void TestManager::GetAnswer(std::string AnswerNumber)
 {
 	while (Counter != TestCards.size())
 	{

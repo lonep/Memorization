@@ -7,22 +7,28 @@
 #include <iostream>
 #include "testCard.h"
 #include "rapidjson/istreamwrapper.h"
+
 using namespace rapidjson;
 std::list<testCard*> readerJSON::parseFile(std::ifstream &file) {
     std::list<testCard*> testCards;
     Document doc;
     IStreamWrapper js(file);
     doc.ParseStream(js);
+    std::string quest, trueAn;
+    std::vector <std::string> falseAn;
     for(short i = 0; i < doc["cards"].Size(); i++ ){
-        testCard *card = new testCard;
-        card->question = doc["cards"][i]["question"].GetString();
-        card->trueAn = doc["cards"][i]["true"].GetString();
+        quest = doc["cards"][i]["question"].GetString();
+        trueAn = doc["cards"][i]["true"].GetString();
         if(doc["cards"][i].HasMember("false")) {
             for (int j = 0; j < doc["cards"][i]["false"].Size(); j++) {
-                card->falseAn.push_back(doc["cards"][i]["false"][j].GetString());
+                falseAn.push_back(doc["cards"][i]["false"][j].GetString());
             }
         }
+        testCard *card = new testCard(quest,trueAn,falseAn);
         testCards.push_back(card);
+        quest = "";
+        trueAn= "";
+        falseAn.clear();
     }
     return testCards;
 }

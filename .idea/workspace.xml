@@ -53,11 +53,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lonep\Documents\GitHub\Memorization" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lonep\Documents\GitHub\Memorization" />
     </key>
   </component>
   <component name="RunManager">
@@ -97,6 +97,7 @@
       <workItem from="1591043756454" duration="980000" />
       <workItem from="1591081865560" duration="101000" />
       <workItem from="1591083848059" duration="16000" />
+      <workItem from="1591171743657" duration="580000" />
     </task>
     <servers />
   </component>
@@ -178,13 +179,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/readerTXT.cpp</url>
-          <line>33</line>
+          <line>38</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/readerJSON.cpp</url>
-          <line>25</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -15,6 +15,9 @@ class testCard {
     static short TOTAL_MISTAKES;
 public:
     testCard(std::string &quest, std::string &r_answer, std::vector<std::string> &anw_vec);
+    std::string get_question();
+    std::string get_trueAnwser();
+    std::string get_falseAnwsers();
     bool check(std::string anwser);
     short MISTAKES = 0;
     bool true_answered = false;

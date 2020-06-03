@@ -97,7 +97,8 @@
       <workItem from="1591043756454" duration="980000" />
       <workItem from="1591081865560" duration="101000" />
       <workItem from="1591083848059" duration="16000" />
-      <workItem from="1591171743657" duration="580000" />
+      <workItem from="1591171743657" duration="1059000" />
+      <workItem from="1591205038437" duration="708000" />
     </task>
     <servers />
   </component>
@@ -117,26 +118,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="93" y="93" width="1095" height="535" key="DiffContextDialog/0.0.1280.720@0.0.1280.720" timestamp="1590775381808" />
-    <state width="1236" height="159" key="GridCell.Tab.0.bottom" timestamp="1591041564896">
+    <state width="1236" height="173" key="GridCell.Tab.0.bottom" timestamp="1591172811576">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1236" height="190" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1024.819@0.0.1280.720" timestamp="1590873427949" />
-    <state width="1236" height="159" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591041564896" />
-    <state width="1236" height="159" key="GridCell.Tab.0.center" timestamp="1591041564896">
+    <state width="1236" height="173" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591172811576" />
+    <state width="1236" height="173" key="GridCell.Tab.0.center" timestamp="1591172811576">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1236" height="190" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1024.819@0.0.1280.720" timestamp="1590873427949" />
-    <state width="1236" height="159" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591041564896" />
-    <state width="1236" height="159" key="GridCell.Tab.0.left" timestamp="1591041564895">
+    <state width="1236" height="173" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591172811576" />
+    <state width="1236" height="173" key="GridCell.Tab.0.left" timestamp="1591172811576">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1236" height="190" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1024.819@0.0.1280.720" timestamp="1590873427949" />
-    <state width="1236" height="159" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591041564895" />
-    <state width="1236" height="159" key="GridCell.Tab.0.right" timestamp="1591041564896">
+    <state width="1236" height="173" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591172811576" />
+    <state width="1236" height="173" key="GridCell.Tab.0.right" timestamp="1591172811576">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1236" height="190" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1024.819@0.0.1280.720" timestamp="1590873427949" />
-    <state width="1236" height="159" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591041564896" />
+    <state width="1236" height="173" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591172811576" />
     <state width="1236" height="159" key="GridCell.Tab.1.bottom" timestamp="1591041564896">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -173,16 +174,5 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1591008807040" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/readerTXT.cpp</url>
-          <line>38</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

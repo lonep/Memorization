@@ -3,43 +3,43 @@
 
 void IO_Module::Greeting()
 {
-	std::cout << "Âàñ ïðèâåñòâóåò ïðîãðàììà Memorization!\n";
-	std::cout << "Äàííàÿ ïðîãðàììà ïðåäíàçíà÷åíà äëÿ çàïîìèíàíèÿ êàêîé ëèáî èíôîðìàöèè ïóòåì ïîâòîðåíèÿ\n";
-	std::cout << "Âû ìîæåòå ñîçäàòü âîïðîñû èëè îòêðûòü óæå ãîòîâûé òåñò\n";
-	std::cout << "Íàæìèòå ëþáóþ êëàâèøó, ÷òîáû íà÷àòü ðàáîòó..."
+	std::cout << "Ã‚Ã Ã± Ã¯Ã°Ã¨Ã¢Ã¥Ã±Ã²Ã¢Ã³Ã¥Ã² Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã  Memorization!\n";
+	std::cout << "Ã„Ã Ã­Ã­Ã Ã¿ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã  Ã¯Ã°Ã¥Ã¤Ã­Ã Ã§Ã­Ã Ã·Ã¥Ã­Ã  Ã¤Ã«Ã¿ Ã§Ã Ã¯Ã®Ã¬Ã¨Ã­Ã Ã­Ã¨Ã¿ ÃªÃ ÃªÃ®Ã© Ã«Ã¨Ã¡Ã® Ã¨Ã­Ã´Ã®Ã°Ã¬Ã Ã¶Ã¨Ã¨ Ã¯Ã³Ã²Ã¥Ã¬ Ã¯Ã®Ã¢Ã²Ã®Ã°Ã¥Ã­Ã¨Ã¿\n";
+	std::cout << "Ã‚Ã» Ã¬Ã®Ã¦Ã¥Ã²Ã¥ Ã±Ã®Ã§Ã¤Ã Ã²Ã¼ Ã¢Ã®Ã¯Ã°Ã®Ã±Ã» Ã¨Ã«Ã¨ Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ Ã³Ã¦Ã¥ Ã£Ã®Ã²Ã®Ã¢Ã»Ã© Ã²Ã¥Ã±Ã²\n";
+	std::cout << "ÃÃ Ã¦Ã¬Ã¨Ã²Ã¥ Ã«Ã¾Ã¡Ã³Ã¾ ÃªÃ«Ã Ã¢Ã¨Ã¸Ã³, Ã·Ã²Ã®Ã¡Ã» Ã­Ã Ã·Ã Ã²Ã¼ Ã°Ã Ã¡Ã®Ã²Ã³..."
 	char start = '0';
 	std::cin >> start;
 }
 
 void IO_Module::Menu()
 {
-	std::cout << "×òî Âû õîòèòå ñäåëàòü: \n C - Ñîçäàòü òåñò; \n O - Îòêðûòü ñóùåñòâóþùèé.\n";
-	std::cout << "Âàø âûáîð: ";
+	std::cout << "Ã—Ã²Ã® Ã‚Ã» ÃµÃ®Ã²Ã¨Ã²Ã¥ Ã±Ã¤Ã¥Ã«Ã Ã²Ã¼: \n C - Ã‘Ã®Ã§Ã¤Ã Ã²Ã¼ Ã²Ã¥Ã±Ã²; \n O - ÃŽÃ²ÃªÃ°Ã»Ã²Ã¼ Ã±Ã³Ã¹Ã¥Ã±Ã²Ã¢Ã³Ã¾Ã¹Ã¨Ã©.\n";
+	std::cout << "Ã‚Ã Ã¸ Ã¢Ã»Ã¡Ã®Ã°: ";
 	char answer = ' ';
 	int count = 1;
 	while (count)
 	{
 		std::cin >> answer;
-		if (answer == 'C' || answer == 'c' || answer == 'Ñ' || answer == 'ñ') {
+		if (answer == 'C' || answer == 'c' || answer == 'Ã‘' || answer == 'Ã±') {
 			create_path();
 			count = 0;
 		}
-		else if (answer == 'O' || answer == 'o' || answer == 'Î' || answer == 'î') {
+		else if (answer == 'O' || answer == 'o' || answer == 'ÃŽ' || answer == 'Ã®') {
 			get_path();
 			count = 0;
 		}
-		else std::cout << "Íåêîððåêòíûé ââîä. Ïîïðîáóéòå ñíîâà: ";
+		else std::cout << "ÃÃ¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã»Ã© Ã¢Ã¢Ã®Ã¤. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã : ";
 	}
 }
 
 std::string IO_Module::get_PATH()
 {
 	std::string path = "0";
-	std::cout << "Ââåäèòå ïóòü ê ôàéëó: ";
+	std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã³Ã²Ã¼ Ãª Ã´Ã Ã©Ã«Ã³: ";
 	do {
 		std::cin >> path;
 		if (!file::isPATHCorrect(path))
-			std::cout << "Ââåä¸í íåêîððåêòíûé ïóòü ê ôàéëó. Ïîïðîáóéòå ñíîâà: ";
+			std::cout << "Ã‚Ã¢Ã¥Ã¤Â¸Ã­ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã»Ã© Ã¯Ã³Ã²Ã¼ Ãª Ã´Ã Ã©Ã«Ã³. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã : ";
 	} while (!file::isPATHCorrect(path))
 	return path;
 }
@@ -47,19 +47,107 @@ std::string IO_Module::get_PATH()
 std::string IO_Module::create_PATH()
 {
 	std::string path = "0";
-	std::cout << "Ââåäèòå ïóòü íîâîãî ôàéëà: ";
+	std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã³Ã²Ã¼ Ã­Ã®Ã¢Ã®Ã£Ã® Ã´Ã Ã©Ã«Ã : ";
 	std::cin >> path;
 	return path;
 }
 
 void IO_Module::show_card(std::string question, std::vector<std::string> answers)
 {
-	std::cout << question << '\n' << '\n';
-	int count = 1;
-	for (int i = 0; i < answers.size(); i++)
+	string temp;
+	for (int j = 0; j < 11; j++)
 	{
-		std::cout << count << ". " << answers[i] << '\n';
-		count++;
+		if (j % 2 != 0)
+		{
+			switch (j)
+			{
+			case 3:
+				temp = answers[1]; //answer 1
+				break;
+			case 5:
+				temp = answers[2]; //answer 2
+				break;
+			case 7:
+				temp = answers[3]; //answer 3
+				break;
+			case 9:
+				temp = answers[4]; //answer 4
+				break;
+			default :
+				temp = question; //question
+				break;
+			}
+			int counter = 0;
+			int answer_index = 0;
+			while (counter < temp.length())
+			{
+
+				for (int i = 0; i < 106; i++)
+				{
+					if ((i == 2) && (answer_index != 0) && (counter < 100))
+					{
+						std::cout << answer_index << ')';
+						i += 2;
+						continue;
+					}
+					if (i == 0 or i == 105)
+					{
+						std::cout << '|';
+						continue;
+					}
+					if (i == 1 or i == 104)
+					{
+						std::cout << ' ';
+						if (counter < 100)
+							switch (j)
+							{
+							case 3:
+								cout << "1)";
+								i += 2;
+								break;
+							case 5:
+								cout << "2)";
+								i += 2;
+								break;
+							case 7:
+								cout << "3)";
+								i += 2;
+								break;
+							case 9:
+								cout << "4)";
+								i += 2;
+								break;
+							}
+						continue;
+					}
+
+					if (counter < temp.length())
+						std::cout << temp[counter];
+					else
+						std::cout << ' ';
+					counter++;
+				}
+				std::cout << endl;
+				answer_index++;
+			}
+		}
+		else
+		{
+			for (int i = 0; i < 106; i++)
+			{
+				if (i == 0 or i == 105)
+				{
+					if (j == 0 or j == 10)
+						std::cout << '#';
+					else
+						std::cout << '|';
+					continue;
+				}
+				else
+					std::cout << '~';
+			}
+			std::cout << std::endl;
+		}
 	}
 }
 
@@ -67,12 +155,12 @@ std::string IO_Module::get_answer(std::vector<std::string> answers)
 {
 	std::string answer = "0";
 	int count = 1;
-	std::cout << "Ââåäèòå Âàø îòâåò: ";
+	std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã‚Ã Ã¸ Ã®Ã²Ã¢Ã¥Ã²: ";
 	while (count)
 	{
 		std::cin >> answer;
 		if (answer !="1" || answer != "2" || answer != "3" || answer != "4")
-			std::cout << "Íåêîððåêòíûé ââîä. Ïîïðîáóéòå ñíîâà: ";
+			std::cout << "ÃÃ¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã»Ã© Ã¢Ã¢Ã®Ã¤. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã : ";
 		else count = 0;
 	}
 	int answ = stoi(answer);

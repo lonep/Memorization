@@ -16,8 +16,8 @@ class testCard {
 public:
     testCard(std::string &quest, std::string &r_answer, std::vector<std::string> &anw_vec);
     std::string get_question();
-    std::string get_trueAnwser();
-    std::vector<std::string> get_falseAnwser();
+    std::string get_trueAnswer();
+    std::vector<std::string> get_falseAnswer();
     bool check(std::string anwser);
     short MISTAKES = 0;
     bool true_answered = false;

@@ -7,7 +7,7 @@
 #include "rapidjson/writer.h"
 #include "rapidjson/ostreamwrapper.h"
 using namespace rapidjson;
-void writerJSON::write(std::ofstream &file, std::list<testCard*> &testCards) {
+void writerJSON::write(std::ofstream &file, std::list<testCard> &testCards) {
     Document doc;
     doc;
     doc.SetObject();
@@ -23,21 +23,19 @@ void writerJSON::write(std::ofstream &file, std::list<testCard*> &testCards) {
          object.SetObject();
          bool s = object.IsObject();
          object.RemoveAllMembers();
-         question.SetString(testCards.back()->question.c_str(),allocator);
+         question.SetString(testCards.back().get_question().c_str(),allocator);
          object.AddMember("question", question,allocator);
 
-         question.SetString(testCards.back()->trueAn.c_str(),allocator);
+         question.SetString(testCards.back().get_trueAnswer().c_str(),allocator);
          object.AddMember("true", question,allocator);
 
-         for(int j = 0; j <  testCards.back()->falseAn.size(); j++) {
+         for(int j = 0; j <  testCards.back().get_falseAnswer().size(); j++) {
             falseAn.SetArray();
-             fl.SetString(testCards.back()->falseAn[j].c_str(), allocator);
+             fl.SetString(testCards.back().get_falseAnswer()[j].c_str(), allocator);
              falseAn.PushBack(fl, allocator);
          }
          object.AddMember("false", falseAn, allocator);
          array.PushBack(object, allocator);
-         delete testCards.back();
-         testCards.pop_back();
      }
      bool s = doc.IsObject();
      doc.AddMember("cards",array,allocator);

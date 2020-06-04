@@ -14,8 +14,8 @@
 
 
 class file {
-    std::string PATH;
-    bool mode;
+    std::string PATH; // путь к файлу
+    bool mode; // .json/.txt обработка
 public:
     void write(std::list<testCard> testCards);
     static bool isPATHCorrect(std::string path);

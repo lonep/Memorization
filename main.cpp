@@ -4,6 +4,7 @@
 #include "TestCard.h"
 #include <string>
 #include <list>
+#include <iterator> //Для реализации итератора по списку.
 
 int main() {
 
@@ -14,15 +15,15 @@ int main() {
     do{
         user_request = UI.get_PATH();
     } while (!file::isPATHCorrect(user_request));
-    file File; //todo конструктор для file;
+    file File(user_request,WR_status);
 
     std::list<testCard*> cards; //Память под карточки выделяется в reader -> указатели нужны, чтобы потом удалить их
     cards = File.read();
     TestManager tm;
 
-    auto it = cards.begin();
+    list <testCard*>::iterator it = cards.begin(); //Попытался пофиксить итертор
     while(it != cards.end()){
-        //UI.show_card() какая то нерабочая штука с итераторами
+        //Этот блок не очень реализуется пока
     }
 
 }

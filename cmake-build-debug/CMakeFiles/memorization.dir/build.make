@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Coding\lonepMemorization
+CMAKE_SOURCE_DIR = C:\Users\lonep\Documents\GitHub\Memorization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Coding\lonepMemorization\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/memorization.dir/depend.make
@@ -58,60 +58,88 @@ include CMakeFiles/memorization.dir/flags.make
 
 CMakeFiles/memorization.dir/main.cpp.obj: CMakeFiles/memorization.dir/flags.make
 CMakeFiles/memorization.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\lonepMemorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/memorization.dir/main.cpp.obj"
-	D:\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\main.cpp.obj -c D:\Coding\lonepMemorization\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/memorization.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\main.cpp.obj -c C:\Users\lonep\Documents\GitHub\Memorization\main.cpp
 
 CMakeFiles/memorization.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memorization.dir/main.cpp.i"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\lonepMemorization\main.cpp > CMakeFiles\memorization.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lonep\Documents\GitHub\Memorization\main.cpp > CMakeFiles\memorization.dir\main.cpp.i
 
 CMakeFiles/memorization.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memorization.dir/main.cpp.s"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\lonepMemorization\main.cpp -o CMakeFiles\memorization.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lonep\Documents\GitHub\Memorization\main.cpp -o CMakeFiles\memorization.dir\main.cpp.s
 
 CMakeFiles/memorization.dir/readerTXT.cpp.obj: CMakeFiles/memorization.dir/flags.make
 CMakeFiles/memorization.dir/readerTXT.cpp.obj: ../readerTXT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\lonepMemorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/memorization.dir/readerTXT.cpp.obj"
-	D:\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\readerTXT.cpp.obj -c D:\Coding\lonepMemorization\readerTXT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/memorization.dir/readerTXT.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\readerTXT.cpp.obj -c C:\Users\lonep\Documents\GitHub\Memorization\readerTXT.cpp
 
 CMakeFiles/memorization.dir/readerTXT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memorization.dir/readerTXT.cpp.i"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\lonepMemorization\readerTXT.cpp > CMakeFiles\memorization.dir\readerTXT.cpp.i
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lonep\Documents\GitHub\Memorization\readerTXT.cpp > CMakeFiles\memorization.dir\readerTXT.cpp.i
 
 CMakeFiles/memorization.dir/readerTXT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memorization.dir/readerTXT.cpp.s"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\lonepMemorization\readerTXT.cpp -o CMakeFiles\memorization.dir\readerTXT.cpp.s
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lonep\Documents\GitHub\Memorization\readerTXT.cpp -o CMakeFiles\memorization.dir\readerTXT.cpp.s
+
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: CMakeFiles/memorization.dir/flags.make
+CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../writerJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/memorization.dir/writerJSON.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\writerJSON.cpp.obj -c C:\Users\lonep\Documents\GitHub\Memorization\writerJSON.cpp
+
+CMakeFiles/memorization.dir/writerJSON.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memorization.dir/writerJSON.cpp.i"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lonep\Documents\GitHub\Memorization\writerJSON.cpp > CMakeFiles\memorization.dir\writerJSON.cpp.i
+
+CMakeFiles/memorization.dir/writerJSON.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memorization.dir/writerJSON.cpp.s"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lonep\Documents\GitHub\Memorization\writerJSON.cpp -o CMakeFiles\memorization.dir\writerJSON.cpp.s
+
+CMakeFiles/memorization.dir/file.cpp.obj: CMakeFiles/memorization.dir/flags.make
+CMakeFiles/memorization.dir/file.cpp.obj: ../file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/memorization.dir/file.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\file.cpp.obj -c C:\Users\lonep\Documents\GitHub\Memorization\file.cpp
+
+CMakeFiles/memorization.dir/file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memorization.dir/file.cpp.i"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lonep\Documents\GitHub\Memorization\file.cpp > CMakeFiles\memorization.dir\file.cpp.i
+
+CMakeFiles/memorization.dir/file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memorization.dir/file.cpp.s"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lonep\Documents\GitHub\Memorization\file.cpp -o CMakeFiles\memorization.dir\file.cpp.s
 
 CMakeFiles/memorization.dir/readerJSON.cpp.obj: CMakeFiles/memorization.dir/flags.make
 CMakeFiles/memorization.dir/readerJSON.cpp.obj: ../readerJSON.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\lonepMemorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/memorization.dir/readerJSON.cpp.obj"
-	D:\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\readerJSON.cpp.obj -c D:\Coding\lonepMemorization\readerJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/memorization.dir/readerJSON.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\readerJSON.cpp.obj -c C:\Users\lonep\Documents\GitHub\Memorization\readerJSON.cpp
 
 CMakeFiles/memorization.dir/readerJSON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memorization.dir/readerJSON.cpp.i"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\lonepMemorization\readerJSON.cpp > CMakeFiles\memorization.dir\readerJSON.cpp.i
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lonep\Documents\GitHub\Memorization\readerJSON.cpp > CMakeFiles\memorization.dir\readerJSON.cpp.i
 
 CMakeFiles/memorization.dir/readerJSON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memorization.dir/readerJSON.cpp.s"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\lonepMemorization\readerJSON.cpp -o CMakeFiles\memorization.dir\readerJSON.cpp.s
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lonep\Documents\GitHub\Memorization\readerJSON.cpp -o CMakeFiles\memorization.dir\readerJSON.cpp.s
 
 CMakeFiles/memorization.dir/testCard.cpp.obj: CMakeFiles/memorization.dir/flags.make
 CMakeFiles/memorization.dir/testCard.cpp.obj: ../testCard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\lonepMemorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/memorization.dir/testCard.cpp.obj"
-	D:\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\testCard.cpp.obj -c D:\Coding\lonepMemorization\testCard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/memorization.dir/testCard.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\memorization.dir\testCard.cpp.obj -c C:\Users\lonep\Documents\GitHub\Memorization\testCard.cpp
 
 CMakeFiles/memorization.dir/testCard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memorization.dir/testCard.cpp.i"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\lonepMemorization\testCard.cpp > CMakeFiles\memorization.dir\testCard.cpp.i
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lonep\Documents\GitHub\Memorization\testCard.cpp > CMakeFiles\memorization.dir\testCard.cpp.i
 
 CMakeFiles/memorization.dir/testCard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memorization.dir/testCard.cpp.s"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\lonepMemorization\testCard.cpp -o CMakeFiles\memorization.dir\testCard.cpp.s
+	C:\PROGRA~1\JETBRA~1\MinGw\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lonep\Documents\GitHub\Memorization\testCard.cpp -o CMakeFiles\memorization.dir\testCard.cpp.s
 
 # Object files for target memorization
 memorization_OBJECTS = \
 "CMakeFiles/memorization.dir/main.cpp.obj" \
 "CMakeFiles/memorization.dir/readerTXT.cpp.obj" \
+"CMakeFiles/memorization.dir/writerJSON.cpp.obj" \
+"CMakeFiles/memorization.dir/file.cpp.obj" \
 "CMakeFiles/memorization.dir/readerJSON.cpp.obj" \
 "CMakeFiles/memorization.dir/testCard.cpp.obj"
 
@@ -120,13 +148,15 @@ memorization_EXTERNAL_OBJECTS =
 
 memorization.exe: CMakeFiles/memorization.dir/main.cpp.obj
 memorization.exe: CMakeFiles/memorization.dir/readerTXT.cpp.obj
+memorization.exe: CMakeFiles/memorization.dir/writerJSON.cpp.obj
+memorization.exe: CMakeFiles/memorization.dir/file.cpp.obj
 memorization.exe: CMakeFiles/memorization.dir/readerJSON.cpp.obj
 memorization.exe: CMakeFiles/memorization.dir/testCard.cpp.obj
 memorization.exe: CMakeFiles/memorization.dir/build.make
 memorization.exe: CMakeFiles/memorization.dir/linklibs.rsp
 memorization.exe: CMakeFiles/memorization.dir/objects1.rsp
 memorization.exe: CMakeFiles/memorization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Coding\lonepMemorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable memorization.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable memorization.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\memorization.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,6 +169,6 @@ CMakeFiles/memorization.dir/clean:
 .PHONY : CMakeFiles/memorization.dir/clean
 
 CMakeFiles/memorization.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Coding\lonepMemorization D:\Coding\lonepMemorization D:\Coding\lonepMemorization\cmake-build-debug D:\Coding\lonepMemorization\cmake-build-debug D:\Coding\lonepMemorization\cmake-build-debug\CMakeFiles\memorization.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\lonep\Documents\GitHub\Memorization C:\Users\lonep\Documents\GitHub\Memorization C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug\CMakeFiles\memorization.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/memorization.dir/depend
 

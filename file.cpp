@@ -43,3 +43,8 @@ bool file::isPATHCorrect(const std::string path) {
     }
     else return false;
 }
+
+file::file(std::string &path, bool &MODE) {
+    PATH = path;
+    mode = MODE;
+}

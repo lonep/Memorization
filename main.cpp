@@ -21,12 +21,20 @@ int main() {
     std::list<testCard> cards;
     cards = File.read();
     TestManager tm(cards);
+<<<<<<< HEAD
     auto it = cards.begin(); //Попытался пофиксить итертор
     vector<std::string> all_anwsers;
     while(it != cards.end()){
         all_anwsers = it->get_all_answers();
         UI.show_card(it->get_question(),all_anwsers);
         UI.get_answer(all_anwsers);
+=======
+    auto it = cards.begin();
+    while(it != cards.end()){
+        UI.show_card(it->get_question(),it->get_all_answers());
+        UI.get_answer(it->get_all_answers());
+        if(!tm.get_card(*it,user_request))
+>>>>>>> c9a2a52c015ff2921e75d591eed50c933b45a197
     }
 
 }

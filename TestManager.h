@@ -8,16 +8,16 @@ class TestManager
 {
     class statistics{
         std::map<testCard,int> stat_map;
-        unsigned int total_answers;
     public:
         void map_initialize(testCard card);
         void check_answer(testCard card, std::string user_answer);
         std::pair<testCard,int> top3();
     };
     statistics stat;
+    unsigned int total_answers;
 public:
-    TestManager(std::list<testCard> &cards);
+    TestManager(const std::list<testCard> &cards);
 	void give_stat();
-	void get_card(testCard &card);
+	bool get_card(const testCard &current_card, std::string user_answer);
 	//std::vector <testCard> GiveQuestion();
 };

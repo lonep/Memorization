@@ -19,9 +19,8 @@ int main() {
 
     std::list<testCard> cards;
     cards = File.read();
-    TestManager tm;
-
-    list <testCard>::iterator it = cards.begin(); //Попытался пофиксить итертор
+    TestManager tm(cards);
+    auto it = cards.begin(); //Попытался пофиксить итертор
     while(it != cards.end()){
     }
     

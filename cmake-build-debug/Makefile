@@ -149,6 +149,33 @@ IO_Module.cpp.s:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/IO_Module.cpp.s
 .PHONY : IO_Module.cpp.s
 
+Mixer.obj: Mixer.cpp.obj
+
+.PHONY : Mixer.obj
+
+# target to build an object file
+Mixer.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/Mixer.cpp.obj
+.PHONY : Mixer.cpp.obj
+
+Mixer.i: Mixer.cpp.i
+
+.PHONY : Mixer.i
+
+# target to preprocess a source file
+Mixer.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/Mixer.cpp.i
+.PHONY : Mixer.cpp.i
+
+Mixer.s: Mixer.cpp.s
+
+.PHONY : Mixer.s
+
+# target to generate assembly for a file
+Mixer.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/Mixer.cpp.s
+.PHONY : Mixer.cpp.s
+
 TestManager.obj: TestManager.cpp.obj
 
 .PHONY : TestManager.obj
@@ -377,6 +404,9 @@ help:
 	@echo ... IO_Module.obj
 	@echo ... IO_Module.i
 	@echo ... IO_Module.s
+	@echo ... Mixer.obj
+	@echo ... Mixer.i
+	@echo ... Mixer.s
 	@echo ... TestManager.obj
 	@echo ... TestManager.i
 	@echo ... TestManager.s

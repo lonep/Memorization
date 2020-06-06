@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/memorization.dir/IO_Module.cpp.obj"
+  "CMakeFiles/memorization.dir/Mixer.cpp.obj"
   "CMakeFiles/memorization.dir/TestManager.cpp.obj"
   "CMakeFiles/memorization.dir/file.cpp.obj"
   "CMakeFiles/memorization.dir/main.cpp.obj"

@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
+#include <string>
 class Mixer {
 public:
-	void mixVector(std::vector<std::string> &answers);
+	void static mixVector(std::vector<std::string> &answers);
 };

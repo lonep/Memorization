@@ -3,4 +3,4 @@ project(memorization)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(memorization main.cpp reader.h testCard.h readerTXT.cpp readerTXT.h rapidjson file.h writerJSON.h writerJSON.cpp file.cpp readerJSON.cpp readerJSON.h testCard.cpp writerTXT.cpp writerJSON.h IO_Module.cpp IO_Module.h TestManager.h TestManager.cpp )
+add_executable(memorization main.cpp reader.h testCard.h mixer.h mixer.cpp readerTXT.cpp readerTXT.h rapidjson file.h writerJSON.h writerJSON.cpp file.cpp readerJSON.cpp readerJSON.h testCard.cpp writerTXT.cpp writerJSON.h IO_Module.cpp IO_Module.h TestManager.h TestManager.cpp )

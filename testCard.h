@@ -9,6 +9,7 @@
 #include <vector>
 #include <array>
 
+
 class testCard {
     std::string question;
     std::string true_answer;

@@ -6,8 +6,8 @@
 #include <string>
 #include <sstream>
 
-std::list<testCard*> readerTXT::parseFile(std::ifstream &file) {
-    std::list<testCard*> cardList;
+std::list<testCard> readerTXT::parseFile(std::ifstream &file) {
+    std::list<testCard> cardList;
 
 
     string s;
@@ -31,7 +31,7 @@ std::list<testCard*> readerTXT::parseFile(std::ifstream &file) {
             f.clear();
             getline(file, s);
         }
-        testCard *card = new testCard(quest,trueAn,falseAn);
+        testCard card(quest,trueAn,falseAn);
         cardList.push_back(card);
         quest = "";
         trueAn = "";

@@ -17,13 +17,13 @@ int main() {
     } while (!file::isPATHCorrect(user_request));
     file File(user_request,WR_status);
 
-    std::list<testCard*> cards; //Память под карточки выделяется в reader -> указатели нужны, чтобы потом удалить их
+    std::list<testCard> cards;
     cards = File.read();
     TestManager tm;
-
-    list <testCard*>::iterator it = cards.begin(); //Попытался пофиксить итертор
+    
+    list <testCard>::iterator it = cards.begin(); //Попытался пофиксить итертор
     while(it != cards.end()){
-        //Этот блок не очень реализуется пока
+       tm.GiveQuestion();
     }
 
 }

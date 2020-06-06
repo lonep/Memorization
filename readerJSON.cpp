@@ -9,8 +9,8 @@
 #include "rapidjson/istreamwrapper.h"
 
 using namespace rapidjson;
-std::list<testCard*> readerJSON::parseFile(std::ifstream &file) {
-    std::list<testCard*> testCards;
+std::list<testCard> readerJSON::parseFile(std::ifstream &file) {
+    std::list<testCard> testCards;
     Document doc;
     IStreamWrapper js(file);
     doc.ParseStream(js);
@@ -24,7 +24,7 @@ std::list<testCard*> readerJSON::parseFile(std::ifstream &file) {
                 falseAn.push_back(doc["cards"][i]["false"][j].GetString());
             }
         }
-        testCard *card = new testCard(quest,trueAn,falseAn);
+        testCard card(quest,trueAn,falseAn);
         testCards.push_back(card);
         quest = "";
         trueAn= "";

@@ -8,7 +8,7 @@
 #include "reader.h"
 class readerJSON: public reader {
 public:
-    std::list<testCard*> parseFile(std::ifstream &file) override;
+    std::list<testCard> parseFile(std::ifstream &file) override;
 };
 
 

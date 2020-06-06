@@ -22,7 +22,7 @@ public:
     std::vector<std::string> get_falseAnswer();
     bool check(std::string anwser);
     bool true_answered = false;
-    std::vector <std::string> get_all_answers(std::vector<std::string> false_an);
+    std::vector <std::string> get_all_answers();
     ~testCard();
 };
 

@@ -24,5 +24,5 @@ int main() {
     list <testCard>::iterator it = cards.begin(); //Попытался пофиксить итертор
     while(it != cards.end()){
     }
-    it->get_all_answers(it->get_falseAnswer());
+    
 }

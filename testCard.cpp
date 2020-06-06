@@ -28,6 +28,8 @@ std::vector<std::string> testCard::get_falseAnswer() {
     return false_answer;
 }
 
-std::vector<std::string> testCard::get_all_answers(std::vector<std::string> false_an) {
+std::vector<std::string> testCard::get_all_answers() {
+    std::vector <std::string> false_an = false_answer;
+    false_an.push_back(true_answer);
     return false_an;
 }

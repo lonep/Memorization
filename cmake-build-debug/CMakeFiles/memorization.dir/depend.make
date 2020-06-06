@@ -12,6 +12,9 @@ CMakeFiles/memorization.dir/IO_Module.cpp.obj: ../writer.h
 CMakeFiles/memorization.dir/IO_Module.cpp.obj: ../writerJSON.h
 CMakeFiles/memorization.dir/IO_Module.cpp.obj: ../writerTXT.h
 
+CMakeFiles/memorization.dir/Mixer.cpp.obj: ../Mixer.cpp
+CMakeFiles/memorization.dir/Mixer.cpp.obj: ../Mixer.h
+
 CMakeFiles/memorization.dir/TestManager.cpp.obj: ../TestManager.cpp
 CMakeFiles/memorization.dir/TestManager.cpp.obj: ../TestManager.h
 CMakeFiles/memorization.dir/TestManager.cpp.obj: ../testCard.h
@@ -59,6 +62,7 @@ CMakeFiles/memorization.dir/readerTXT.cpp.obj: ../readerTXT.cpp
 CMakeFiles/memorization.dir/readerTXT.cpp.obj: ../readerTXT.h
 CMakeFiles/memorization.dir/readerTXT.cpp.obj: ../testCard.h
 
+CMakeFiles/memorization.dir/testCard.cpp.obj: ../Mixer.h
 CMakeFiles/memorization.dir/testCard.cpp.obj: ../testCard.cpp
 CMakeFiles/memorization.dir/testCard.cpp.obj: ../testCard.h
 

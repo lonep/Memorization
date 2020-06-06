@@ -20,10 +20,11 @@ int main() {
     std::list<testCard> cards;
     cards = File.read();
     TestManager tm(cards);
-    auto it = cards.begin(); //Попытался пофиксить итертор
+    auto it = cards.begin();
     while(it != cards.end()){
         UI.show_card(it->get_question(),it->get_all_answers());
         UI.get_answer(it->get_all_answers());
+        if(!tm.get_card(*it,user_request))
     }
 
 }

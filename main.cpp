@@ -23,6 +23,8 @@ int main() {
 
     list <testCard>::iterator it = cards.begin(); //Попытался пофиксить итертор
     while(it != cards.end()){
+        UI.show_card(it->get_question(),it->get_all_answers());
+        UI.get_answer(it->get_all_answers());
     }
-    
+
 }

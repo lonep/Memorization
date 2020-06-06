@@ -1,12 +1,13 @@
 #include "IO_Module.h"
 #include "file.h"
+#include <iostream>
 
 void IO_Module::Greeting()
 {
 	std::cout << "Âàñ ïðèâåñòâóåò ïðîãðàììà Memorization!\n";
 	std::cout << "Äàííàÿ ïðîãðàììà ïðåäíàçíà÷åíà äëÿ çàïîìèíàíèÿ êàêîé ëèáî èíôîðìàöèè ïóòåì ïîâòîðåíèÿ\n";
 	std::cout << "Âû ìîæåòå ñîçäàòü âîïðîñû èëè îòêðûòü óæå ãîòîâûé òåñò\n";
-	std::cout << "Íàæìèòå ëþáóþ êëàâèøó, ÷òîáû íà÷àòü ðàáîòó..."
+	std::cout << "Íàæìèòå ëþáóþ êëàâèøó, ÷òîáû íà÷àòü ðàáîòó...";
 	char start = '0';
 	std::cin >> start;
 }
@@ -21,11 +22,11 @@ void IO_Module::Menu()
 	{
 		std::cin >> answer;
 		if (answer == 'C' || answer == 'c' || answer == 'Ñ' || answer == 'ñ') {
-			create_path();
+			create_PATH();
 			count = 0;
 		}
 		else if (answer == 'O' || answer == 'o' || answer == 'Î' || answer == 'î') {
-			get_path();
+			get_PATH();
 			count = 0;
 		}
 		else std::cout << "Íåêîððåêòíûé ââîä. Ïîïðîáóéòå ñíîâà: ";
@@ -40,7 +41,7 @@ std::string IO_Module::get_PATH()
 		std::cin >> path;
 		if (!file::isPATHCorrect(path))
 			std::cout << "Ââåä¸í íåêîððåêòíûé ïóòü ê ôàéëó. Ïîïðîáóéòå ñíîâà: ";
-	} while (!file::isPATHCorrect(path))
+	} while (!file::isPATHCorrect(path));
 	return path;
 }
 

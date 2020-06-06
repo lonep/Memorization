@@ -106,6 +106,7 @@
       <workItem from="1591353574154" duration="1304000" />
       <workItem from="1591389297727" duration="594000" />
       <workItem from="1591426733977" duration="2589000" />
+      <workItem from="1591430145991" duration="2734000" />
     </task>
     <servers />
   </component>
@@ -180,10 +181,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="647" height="367" key="XDebugger.FullValuePopup/0.0.1280.720@0.0.1280.720" timestamp="1590776151226" />
-    <state x="417" y="146" key="refactoring.ChangeSignatureDialog" timestamp="1591427011346">
+    <state x="417" y="146" key="refactoring.ChangeSignatureDialog" timestamp="1591430366701">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="417" y="146" key="refactoring.ChangeSignatureDialog/0.0.1280.720@0.0.1280.720" timestamp="1591427011346" />
+    <state x="417" y="146" key="refactoring.ChangeSignatureDialog/0.0.1280.720@0.0.1280.720" timestamp="1591430366701" />
     <state x="297" y="161" key="run.anything.popup" timestamp="1590385911707">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -192,5 +193,16 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1591008807040" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

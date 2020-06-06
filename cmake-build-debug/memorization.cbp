@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/IO_Module.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/IO_Module.h">
+			<Option target="memorization"/>
+		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/file.cpp">
 			<Option target="memorization"/>
 		</Unit>
@@ -117,6 +123,12 @@
 			<Option target="memorization"/>
 		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.h">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/writerTXT.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/writerTXT.h">
 			<Option target="memorization"/>
 		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/CMakeLists.txt">

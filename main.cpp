@@ -20,10 +20,9 @@ int main() {
     std::list<testCard> cards;
     cards = File.read();
     TestManager tm;
-    
+
     list <testCard>::iterator it = cards.begin(); //Попытался пофиксить итертор
     while(it != cards.end()){
-       tm.GiveQuestion();
     }
-
+    it->get_all_answers(it->get_falseAnswer());
 }

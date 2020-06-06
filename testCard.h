@@ -7,6 +7,7 @@
 
 #include <string>
 #include <vector>
+#include <array>
 
 class testCard {
     std::string question;
@@ -21,6 +22,7 @@ public:
     std::vector<std::string> get_falseAnswer();
     bool check(std::string anwser);
     bool true_answered = false;
+    std::vector <std::string> get_all_answers(std::vector<std::string> false_an);
     ~testCard();
 };
 

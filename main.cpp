@@ -5,6 +5,7 @@
 #include <string>
 #include <list>
 #include <iterator> //Для реализации итератора по списку.
+#include "Mixer.h"
 
 int main() {
 
@@ -21,9 +22,11 @@ int main() {
     cards = File.read();
     TestManager tm(cards);
     auto it = cards.begin(); //Попытался пофиксить итертор
+    vector<std::string> all_anwsers;
     while(it != cards.end()){
-        UI.show_card(it->get_question(),it->get_all_answers());
-        UI.get_answer(it->get_all_answers());
+        all_anwsers = it->get_all_answers();
+        UI.show_card(it->get_question(),all_anwsers);
+        UI.get_answer(all_anwsers);
     }
 
 }

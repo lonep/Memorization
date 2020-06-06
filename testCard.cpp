@@ -2,7 +2,6 @@
 // Created by lonep on 01-Jun-20.
 //
 #include "testCard.h"
-#include "Mixer.h"
 testCard::testCard() {
     question = "";
     true_answer = "";
@@ -32,6 +31,5 @@ std::vector<std::string> testCard::get_falseAnswer() {
 std::vector<std::string> testCard::get_all_answers() {
     std::vector <std::string> false_an = false_answer;
     false_an.push_back(true_answer);
-    Mixer::mixVector(false_an);
     return false_an;
 }

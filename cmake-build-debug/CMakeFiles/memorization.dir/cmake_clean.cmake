@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/memorization.dir/readerTXT.cpp.obj"
   "CMakeFiles/memorization.dir/testCard.cpp.obj"
   "CMakeFiles/memorization.dir/writerJSON.cpp.obj"
+  "CMakeFiles/memorization.dir/writerTXT.cpp.obj"
   "libmemorization.dll.a"
   "memorization.exe"
   "memorization.exe.manifest"

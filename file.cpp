@@ -25,7 +25,6 @@ void file::write(std::list<testCard> testCards) {
         json.open(PATH);
         writerJSON write;
         write.write(json, testCards);
-
     }
     if(PATH.find(".txt") != -1){
         ofstream txt;

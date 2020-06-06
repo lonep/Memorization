@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/readerTXT.cpp.obj"
   "C:/Users/lonep/Documents/GitHub/Memorization/testCard.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/testCard.cpp.obj"
   "C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/writerJSON.cpp.obj"
+  "C:/Users/lonep/Documents/GitHub/Memorization/writerTXT.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/writerTXT.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

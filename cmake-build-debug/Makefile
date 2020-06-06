@@ -311,6 +311,33 @@ writerJSON.cpp.s:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerJSON.cpp.s
 .PHONY : writerJSON.cpp.s
 
+writerTXT.obj: writerTXT.cpp.obj
+
+.PHONY : writerTXT.obj
+
+# target to build an object file
+writerTXT.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerTXT.cpp.obj
+.PHONY : writerTXT.cpp.obj
+
+writerTXT.i: writerTXT.cpp.i
+
+.PHONY : writerTXT.i
+
+# target to preprocess a source file
+writerTXT.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerTXT.cpp.i
+.PHONY : writerTXT.cpp.i
+
+writerTXT.s: writerTXT.cpp.s
+
+.PHONY : writerTXT.s
+
+# target to generate assembly for a file
+writerTXT.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerTXT.cpp.s
+.PHONY : writerTXT.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -341,6 +368,9 @@ help:
 	@echo ... writerJSON.obj
 	@echo ... writerJSON.i
 	@echo ... writerJSON.s
+	@echo ... writerTXT.obj
+	@echo ... writerTXT.i
+	@echo ... writerTXT.s
 .PHONY : help
 
 

@@ -89,3 +89,8 @@ CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../writer.h
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../writerJSON.cpp
 CMakeFiles/memorization.dir/writerJSON.cpp.obj: ../writerJSON.h
 
+CMakeFiles/memorization.dir/writerTXT.cpp.obj: ../testCard.h
+CMakeFiles/memorization.dir/writerTXT.cpp.obj: ../writer.h
+CMakeFiles/memorization.dir/writerTXT.cpp.obj: ../writerTXT.cpp
+CMakeFiles/memorization.dir/writerTXT.cpp.obj: ../writerTXT.h
+

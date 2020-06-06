@@ -165,9 +165,9 @@ std::string IO_Module::get_answer(std::vector<std::string> answers)
 	while (count)
 	{
 		std::cin >> answer;
-		if (answer !="1" || answer != "2" || answer != "3" || answer != "4")
-			std::cout << "Íåêîððåêòíûé ââîä. Ïîïðîáóéòå ñíîâà: ";
-		else count = 0;
+		if (answer =="1" || answer == "2" || answer == "3" || answer == "4")
+			count = 0;
+		else std::cout << "Íåêîððåêòíûé ââîä. Ïîïðîáóéòå ñíîâà: ";
 	}
 	int answ = stoi(answer);
 	return answers[--answ];

@@ -1,23 +1,21 @@
 #pragma once
-#include <string>
-#include <map>
 #include "testCard.h"
+#include <string>
 #include <list>
+#include <vector>
+#include <map>
 
 class TestManager
 {
-    class statistics{
-        std::map<testCard,int> stat_map;
-    public:
-        void map_initialize(testCard card);
-        bool check_answer(testCard card, std::string user_answer);
-        std::pair<testCard,int> top3();
-    };
-    statistics stat;
+    std::list<testCard> lcards;
+    std::vector<int> q_w_answers;
     unsigned int total_answers;
 public:
     TestManager(const std::list<testCard> &cards);
-	void give_stat();
-	bool get_card(const testCard &current_card, std::string user_answer);
-	//std::vector <testCard> GiveQuestion();
+	std::multimap<int,std::string> give_stat();
+	bool get_card(testCard &current_card, std::string user_answer);
 };
+
+std::_List_iterator<testCard> find_in_list(std::list<testCard>,testCard);
+int max_idx_vector(const std::vector<int>&);
+int max_in_vector(const std::vector<int>&);

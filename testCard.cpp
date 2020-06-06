@@ -3,35 +3,36 @@
 //
 #include "testCard.h"
 #include "Mixer.h"
+
 testCard::testCard() {
     question = "";
-    true_answer = "";
-    false_answer.clear();
+    r_answer = "";
 }
-testCard::testCard(std::string &quest, std::string &r_answer, std::vector<std::string> &anw_vec) {
-    question = quest;
-    true_answer = r_answer;
-    false_answer = anw_vec;
+testCard::testCard(std::string &question, std::string &r_answer, std::vector<std::string> &w_answer) {
+    this->question = question;
+    this->r_answer = r_answer;
+    this->w_answer = w_answer;
 }
-bool testCard::check(std::string anwser) {
-    return anwser == question;
+bool testCard::check_answer(const std::string anwser) {
+    return r_answer == anwser;
 }
-
-testCard::~testCard() {}
-
 std::string testCard::get_question() {
     return question;
 }
 std::string testCard::get_trueAnswer() {
-    return true_answer;
+    return r_answer;
 }
 std::vector<std::string> testCard::get_falseAnswer() {
-    return false_answer;
+    return w_answer;
 }
-
 std::vector<std::string> testCard::get_all_answers() {
-    std::vector <std::string> false_an = false_answer;
-    false_an.push_back(true_answer);
+    std::vector <std::string> false_an = w_answer;
+    false_an.push_back(r_answer);
     Mixer::mixVector(false_an);
     return false_an;
+}
+bool testCard::operator==(testCard _card) {
+    if(this->question == _card.question)
+        if(this->r_answer == _card.r_answer)
+            return this->w_answer == _card.w_answer;
 }

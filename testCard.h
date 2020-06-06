@@ -12,19 +12,17 @@
 
 class testCard {
     std::string question;
-    std::string true_answer;
-    std::vector <std::string> false_answer;
-    short TOTAL_MISTAKES;
+    std::string r_answer;
+    std::vector <std::string> w_answer;
 public:
     testCard();
-    testCard(std::string &quest, std::string &r_answer, std::vector<std::string> &anw_vec);
+    testCard(std::string&, std::string&, std::vector<std::string>&);
     std::string get_question();
     std::string get_trueAnswer();
     std::vector<std::string> get_falseAnswer();
-    bool check(std::string anwser);
-    bool true_answered = false;
+    bool check_answer(std::string);
     std::vector <std::string> get_all_answers();
-    ~testCard();
+    bool operator==(testCard);
 };
 
 

@@ -1,24 +1,21 @@
 #pragma once
-#include <vector>
 #include <string>
+#include <map>
 #include "IO_Module.h"
 #include "testCard.h"
 
 class TestManager
 {
-    class statictic{
-        unsigned int total_wrong_attempts;
-        unsigned int total_attempts;
-        //нужна ли статистика по выбранному пользователем вопросу, мб скок процент ошибок по конкретному вопросу?
+    class statistics{
+        std::map<testCard,int> stat_map;
     public:
-        statictic();
-        float get_total_percentage();
+        void map_initialize();
         void get_answer(testCard card, std::string user_answer);
+        std::pair<testCard,int> top3();
     };
-    statictic stat;
-	//short Counter;
+    statistics stat;
 public:
-	//void GetAnswer(std::string AnswerNumber);
+	void give_stat();
 	void get_card(testCard &card);
-	std::vector <testCard> GiveQuestion();
+	//std::vector <testCard> GiveQuestion();
 };

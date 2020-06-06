@@ -14,6 +14,7 @@ class testCard {
     std::vector <std::string> false_answer;
     short TOTAL_MISTAKES;
 public:
+    testCard();
     testCard(std::string &quest, std::string &r_answer, std::vector<std::string> &anw_vec);
     std::string get_question();
     std::string get_trueAnswer();

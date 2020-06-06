@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/IO_Module.h">
 			<Option target="memorization"/>
 		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/TestManager.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/TestManager.h">
+			<Option target="memorization"/>
+		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/file.cpp">
 			<Option target="memorization"/>
 		</Unit>

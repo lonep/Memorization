@@ -19,13 +19,8 @@ int main() {
 
     std::list<testCard> cards;
     cards = File.read();
-<<<<<<< HEAD
-    TestManager tm;
-    list <testCard>::iterator it = cards.begin(); //Попытался пофиксить итертор
-=======
     TestManager tm(cards);
     auto it = cards.begin(); //Попытался пофиксить итертор
->>>>>>> 78ca29b43e0af79926e61a90a8fe1be80f9ef0d6
     while(it != cards.end()){
         UI.show_card(it->get_question(),it->get_all_answers());
         UI.get_answer(it->get_all_answers());

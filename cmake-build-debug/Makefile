@@ -149,6 +149,33 @@ IO_Module.cpp.s:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/IO_Module.cpp.s
 .PHONY : IO_Module.cpp.s
 
+TestManager.obj: TestManager.cpp.obj
+
+.PHONY : TestManager.obj
+
+# target to build an object file
+TestManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/TestManager.cpp.obj
+.PHONY : TestManager.cpp.obj
+
+TestManager.i: TestManager.cpp.i
+
+.PHONY : TestManager.i
+
+# target to preprocess a source file
+TestManager.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/TestManager.cpp.i
+.PHONY : TestManager.cpp.i
+
+TestManager.s: TestManager.cpp.s
+
+.PHONY : TestManager.s
+
+# target to generate assembly for a file
+TestManager.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/TestManager.cpp.s
+.PHONY : TestManager.cpp.s
+
 file.obj: file.cpp.obj
 
 .PHONY : file.obj
@@ -350,6 +377,9 @@ help:
 	@echo ... IO_Module.obj
 	@echo ... IO_Module.i
 	@echo ... IO_Module.s
+	@echo ... TestManager.obj
+	@echo ... TestManager.i
+	@echo ... TestManager.s
 	@echo ... file.obj
 	@echo ... file.i
 	@echo ... file.s

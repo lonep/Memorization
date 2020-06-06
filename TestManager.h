@@ -2,6 +2,7 @@
 #include <string>
 #include <map>
 #include "testCard.h"
+#include <list>
 
 class TestManager
 {

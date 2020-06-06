@@ -5,7 +5,7 @@
 
 void IO_Module::Greeting()
 {
-    setlocale(LC_ALL, "Ru");
+    setlocale(LC_ALL, "RUS");
 	std::cout << "Âàñ ïðèâåñòâóåò ïðîãðàììà Memorization!\n";
 	std::cout << "Äàííàÿ ïðîãðàììà ïðåäíàçíà÷åíà äëÿ çàïîìèíàíèÿ êàêîé ëèáî èíôîðìàöèè ïóòåì ïîâòîðåíèÿ\n";
 	std::cout << "Âû ìîæåòå ñîçäàòü âîïðîñû èëè îòêðûòü óæå ãîòîâûé òåñò\n";
@@ -38,7 +38,7 @@ void IO_Module::Menu()
 
 std::string IO_Module::get_PATH()
 {
-    setlocale(LC_ALL, "Ru");
+    setlocale(LC_ALL, "RUS");
 	std::string path = "0";
 	std::cout << "Ââåäèòå ïóòü ê ôàéëó: ";
 	do {

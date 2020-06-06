@@ -10,7 +10,7 @@ class TestManager
         std::map<testCard,int> stat_map;
     public:
         void map_initialize(testCard card);
-        void check_answer(testCard card, std::string user_answer);
+        bool check_answer(testCard card, std::string user_answer);
         std::pair<testCard,int> top3();
     };
     statistics stat;

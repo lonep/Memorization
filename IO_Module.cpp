@@ -173,9 +173,10 @@ std::string IO_Module::get_answer(std::vector<std::string> answers)
 	return answers[--answ];
 }
 
-void IO_Module::show_stats(std::pair<testCard, int> stat)
+void IO_Module::show_stats(std::multimap<int, std::string> stat)
 {
-	std::cout << "В вопросе '" << stat.first.get_question() << "' " << stat.second << " ошибок\n";
+	for (const auto& p : stat)
+		std::cout << "В вопросе '" << p.second << "' " << p.first << " ошибок\n";
 }
 
 

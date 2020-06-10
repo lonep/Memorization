@@ -5,7 +5,6 @@
 
 void IO_Module::Greeting()
 {
-    setlocale(LC_ALL, "RUS");
 	std::cout << "The Memorization program welcomes you!\n";
 	std::cout << "This program is designed to remember any information by repeating\n";
 	std::cout << "You can create questions or open a ready-made test\n";
@@ -16,7 +15,6 @@ void IO_Module::Greeting()
 
 void IO_Module::Menu()
 {
-    setlocale(LC_ALL, "RUS");
 	std::cout << "What do you want to do: \n C - Create a test; \n O - Open the test.\n";
 	std::cout << "Your choice: ";
 	char answer = ' ';
@@ -38,7 +36,6 @@ void IO_Module::Menu()
 
 std::string IO_Module::get_PATH()
 {
-    setlocale(LC_ALL, "RUS");
 	std::string path = "0";
 	std::cout << "Enter the path to the file: ";
 	do {
@@ -51,7 +48,6 @@ std::string IO_Module::get_PATH()
 
 std::string IO_Module::create_PATH()
 {
-    setlocale(LC_ALL, "RUS");
 	std::string path = "0";
 	std::cout << "Enter the file path: ";
 	std::cin >> path;
@@ -92,18 +88,18 @@ void IO_Module::show_card(std::string question, std::vector<std::string> answers
 				{
 					if ((i == 2) && (answer_index != 0) && (counter < 100))
 					{
-						std::cout << answer_index << ')';
+						std::cout << answer_index << ")";
 						i += 2;
 						continue;
 					}
 					if (i == 0 or i == 105)
 					{
-						std::cout << '|';
+						std::cout << "|";
 						continue;
 					}
 					if (i == 1 or i == 104)
 					{
-						std::cout << ' ';
+						std::cout << " " ;
 						if (counter < 100)
 							switch (j)
 							{
@@ -130,7 +126,7 @@ void IO_Module::show_card(std::string question, std::vector<std::string> answers
 					if (counter < temp.length())
 						std::cout << temp[counter];
 					else
-						std::cout << ' ';
+						std::cout << " ";
 					counter++;
 				}
 				std::cout << endl;
@@ -144,13 +140,13 @@ void IO_Module::show_card(std::string question, std::vector<std::string> answers
 				if (i == 0 or i == 105)
 				{
 					if (j == 0 or j == 10)
-						std::cout << '#';
+						std::cout << "#";
 					else
-						std::cout << '|';
+						std::cout << "|";
 					continue;
 				}
 				else
-					std::cout << '~';
+					std::cout << "~";
 			}
 			std::cout << std::endl;
 		}
@@ -173,10 +169,9 @@ std::string IO_Module::get_answer(std::vector<std::string> answers)
 	return answers[--answ];
 }
 
-void IO_Module::show_stats(std::multimap <int, std::string> stat)
+void IO_Module::show_stats(std::multimap<int, std::string> stat)
 {
 	for (const auto& p : stat)
 		std::cout << "In the question '" << p.second << "' " << p.first << " errors\n";
 }
-
 

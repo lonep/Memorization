@@ -11,5 +11,5 @@ public:
     std::string create_PATH();
     void show_card (std::string question, std::vector<std::string> answers);
     std::string get_answer(std::vector<std::string> answers);
-    void show_stats(std::multimap<int, std::string> stat);
+    //void show_stats(std::multimap<int, std::string> stat);
 };

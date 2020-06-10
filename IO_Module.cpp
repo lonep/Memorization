@@ -92,18 +92,18 @@ void IO_Module::show_card(std::string question, std::vector<std::string> answers
 				{
 					if ((i == 2) && (answer_index != 0) && (counter < 100))
 					{
-						std::cout << answer_index << ')';
+						std::cout << answer_index << ")";
 						i += 2;
 						continue;
 					}
 					if (i == 0 or i == 105)
 					{
-						std::cout << '|';
+						std::cout << "|";
 						continue;
 					}
 					if (i == 1 or i == 104)
 					{
-						std::cout << ' ';
+						std::cout << " " ;
 						if (counter < 100)
 							switch (j)
 							{
@@ -130,7 +130,7 @@ void IO_Module::show_card(std::string question, std::vector<std::string> answers
 					if (counter < temp.length())
 						std::cout << temp[counter];
 					else
-						std::cout << ' ';
+						std::cout << " ";
 					counter++;
 				}
 				std::cout << endl;
@@ -144,13 +144,13 @@ void IO_Module::show_card(std::string question, std::vector<std::string> answers
 				if (i == 0 or i == 105)
 				{
 					if (j == 0 or j == 10)
-						std::cout << '#';
+						std::cout << "#";
 					else
-						std::cout << '|';
+						std::cout << "|";
 					continue;
 				}
 				else
-					std::cout << '~';
+					std::cout << "~";
 			}
 			std::cout << std::endl;
 		}
@@ -173,10 +173,10 @@ std::string IO_Module::get_answer(std::vector<std::string> answers)
 	return answers[--answ];
 }
 
-void IO_Module::show_stats(std::multimap<int, std::string> stat)
+/*void IO_Module::show_stats(std::multimap<int, std::string> stat)
 {
 	for (const auto& p : stat)
 		std::cout << "В вопросе '" << p.second << "' " << p.first << " ошибок\n";
 }
-
+*/
 

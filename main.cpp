@@ -23,7 +23,8 @@ int main() {
     auto it = cards.begin();
     while(it != cards.end()){
         UI.show_card(it->get_question(),it->get_all_answers());
-        UI.get_answer(it->get_all_answers());
+        it++;
     }
+
 
 }

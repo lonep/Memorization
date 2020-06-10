@@ -6,10 +6,10 @@
 void IO_Module::Greeting()
 {
     setlocale(LC_ALL, "RUS");
-	std::cout << "Âàñ ïðèâåñòâóåò ïðîãðàììà Memorization!\n";
-	std::cout << "Äàííàÿ ïðîãðàììà ïðåäíàçíà÷åíà äëÿ çàïîìèíàíèÿ êàêîé ëèáî èíôîðìàöèè ïóòåì ïîâòîðåíèÿ\n";
-	std::cout << "Âû ìîæåòå ñîçäàòü âîïðîñû èëè îòêðûòü óæå ãîòîâûé òåñò\n";
-	std::cout << "Íàæìèòå ëþáóþ êëàâèøó, ÷òîáû íà÷àòü ðàáîòó...";
+	std::cout << "The Memorization program welcomes you!\n";
+	std::cout << "This program is designed to remember any information by repeating\n";
+	std::cout << "You can create questions or open a ready-made test\n";
+	std::cout << "Press any key to continue...";
 	char start = '0';
 	std::cin >> start;
 }
@@ -17,8 +17,8 @@ void IO_Module::Greeting()
 void IO_Module::Menu()
 {
     setlocale(LC_ALL, "RUS");
-	std::cout << "×òî Âû õîòèòå ñäåëàòü: \n C - Ñîçäàòü òåñò; \n O - Îòêðûòü ñóùåñòâóþùèé.\n";
-	std::cout << "Âàø âûáîð: ";
+	std::cout << "What do you want to do: \n C - Create a test; \n O - Open the test.\n";
+	std::cout << "Your choice: ";
 	char answer = ' ';
 	int count = 1;
 	while (count)
@@ -32,7 +32,7 @@ void IO_Module::Menu()
 			get_PATH();
 			count = 0;
 		}
-		else std::cout << "Íåêîððåêòíûé ââîä. Ïîïðîáóéòå ñíîâà: ";
+		else std::cout << "Invalid input. Try again: ";
 	}
 }
 
@@ -40,11 +40,11 @@ std::string IO_Module::get_PATH()
 {
     setlocale(LC_ALL, "RUS");
 	std::string path = "0";
-	std::cout << "Ââåäèòå ïóòü ê ôàéëó: ";
+	std::cout << "Enter the path to the file: ";
 	do {
 		std::cin >> path;
 		if (!file::isPATHCorrect(path))
-			std::cout << "Ââåä¸í íåêîððåêòíûé ïóòü ê ôàéëó. Ïîïðîáóéòå ñíîâà: ";
+			std::cout << "Invalid input. Try again: ";
 	} while (!file::isPATHCorrect(path));
 	return path;
 }
@@ -53,7 +53,7 @@ std::string IO_Module::create_PATH()
 {
     setlocale(LC_ALL, "RUS");
 	std::string path = "0";
-	std::cout << "Ââåäèòå ïóòü íîâîãî ôàéëà: ";
+	std::cout << "Enter the file path: ";
 	std::cin >> path;
 	return path;
 }
@@ -161,22 +161,22 @@ std::string IO_Module::get_answer(std::vector<std::string> answers)
 {
 	std::string answer = "0";
 	int count = 1;
-	std::cout << "Ââåäèòå Âàø îòâåò: ";
+	std::cout << "Enter Your answer: ";
 	while (count)
 	{
 		std::cin >> answer;
 		if (answer == "1" || answer == "2" || answer == "3" || answer == "4")
 			count = 0;
-		else std::cout << "Íåêîððåêòíûé ââîä. Ïîïðîáóéòå ñíîâà: ";
+		else std::cout << "Invalid input. Try again: ";
 	}
 	int answ = stoi(answer);
 	return answers[--answ];
 }
 
-void IO_Module::show_stats(std::multimap<int, std::string> stat)
+void IO_Module::show_stats(std::multimap <int, std::string> stat)
 {
 	for (const auto& p : stat)
-		std::cout << "В вопросе '" << p.second << "' " << p.first << " ошибок\n";
+		std::cout << "In the question '" << p.second << "' " << p.first << " errors\n";
 }
 
 

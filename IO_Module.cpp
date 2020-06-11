@@ -18,8 +18,7 @@ bool IO_Module::Menu()
 	std::cout << "What do you want to do: \n C - Create a test; \n O - Open the test.\n";
 	std::cout << "Your choice: ";
 	char answer = ' ';
-	int count = 1;
-	while (count)
+	while (true)
 	{
 		std::cin >> answer;
 		if (answer == 'C' || answer == 'c')

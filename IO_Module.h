@@ -7,7 +7,7 @@
 class IO_Module{
 public:
     void Greeting();
-    void Menu();
+    bool Menu();
     std::string get_PATH();
     std::string create_PATH();
     void show_card (std::string question, std::vector<std::string> answers);

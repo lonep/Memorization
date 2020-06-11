@@ -13,7 +13,7 @@ void IO_Module::Greeting()
 	std::cin >> start;
 }
 
-void IO_Module::Menu()
+bool IO_Module::Menu()
 {
 	std::cout << "What do you want to do: \n C - Create a test; \n O - Open the test.\n";
 	std::cout << "Your choice: ";
@@ -22,14 +22,10 @@ void IO_Module::Menu()
 	while (count)
 	{
 		std::cin >> answer;
-		if (answer == 'C' || answer == 'c' || answer == 'Ñ' || answer == 'ñ') {
-			create_PATH();
-			count = 0;
-		}
-		else if (answer == 'O' || answer == 'o' || answer == 'Î' || answer == 'î') {
-			get_PATH();
-			count = 0;
-		}
+		if (answer == 'C' || answer == 'c')
+			return 0;
+		else if (answer == 'O' || answer == 'o')
+			return 1;
 		else std::cout << "Invalid input. Try again: ";
 	}
 }

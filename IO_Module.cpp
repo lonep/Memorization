@@ -34,7 +34,7 @@ std::string IO_Module::get_PATH(bool mode)
 	std::string path = "0";
 	std::cout << "Enter the path to the file: ";
 	if (mode == 0)
-		cin >> path;
+		std::cin >> path;
 	else {
 		do {
 			std::cin >> path;
@@ -44,14 +44,6 @@ std::string IO_Module::get_PATH(bool mode)
 	}
 	return path;
 }
-
-/*std::string IO_Module::create_PATH()
-{
-	std::string path = "0";
-	std::cout << "Enter the file path: ";
-	std::cin >> path;
-	return path;
-}*/
 
 void IO_Module::show_card(std::string question, std::vector<std::string> answers)
 {
@@ -170,7 +162,9 @@ std::string IO_Module::get_answer(std::vector<std::string> answers)
 
 void IO_Module::show_stats(std::multimap<int, std::string> stat)
 {
-	for (auto p : stat)
+	if (stat.empty())
+		std::cout << "You didn't make a single mistake!\n";
+	else for (auto p : stat)
 		std::cout << "In the question '" << p.second << "' " << p.first << " errors\n";
 }
 

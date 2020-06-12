@@ -29,25 +29,29 @@ bool IO_Module::Menu()
 	}
 }
 
-std::string IO_Module::get_PATH()
+std::string IO_Module::get_PATH(bool mode)
 {
 	std::string path = "0";
 	std::cout << "Enter the path to the file: ";
-	do {
-		std::cin >> path;
-		if (!file::isPATHCorrect(path))
-			std::cout << "Invalid input. Try again: ";
-	} while (!file::isPATHCorrect(path));
+	if (mode == 0)
+		cin >> path;
+	else {
+		do {
+			std::cin >> path;
+			if (!file::isPATHCorrect(path))
+				std::cout << "Invalid input. Try again: ";
+		} while (!file::isPATHCorrect(path));
+	}
 	return path;
 }
 
-std::string IO_Module::create_PATH()
+/*std::string IO_Module::create_PATH()
 {
 	std::string path = "0";
 	std::cout << "Enter the file path: ";
 	std::cin >> path;
 	return path;
-}
+}*/
 
 void IO_Module::show_card(std::string question, std::vector<std::string> answers)
 {
@@ -166,7 +170,7 @@ std::string IO_Module::get_answer(std::vector<std::string> answers)
 
 void IO_Module::show_stats(std::multimap<int, std::string> stat)
 {
-	for (const auto& p : stat)
+	for (auto p : stat)
 		std::cout << "In the question '" << p.second << "' " << p.first << " errors\n";
 }
 

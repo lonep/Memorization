@@ -14,8 +14,8 @@ public:
     TestManager(const std::list<testCard> &cards);
 	std::multimap<int,std::string> give_stat();
 	bool get_card(testCard &current_card, std::string user_answer);
+	unsigned int give_total_ans();
 };
 
-std::_List_iterator<testCard> find_in_list(std::list<testCard>,testCard);
 int max_idx_vector(const std::vector<int>&);
 int max_in_vector(const std::vector<int>&);

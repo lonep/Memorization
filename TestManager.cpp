@@ -19,22 +19,26 @@ std::multimap<int, std::string> TestManager::give_stat() {
 }
 bool TestManager::get_card(testCard &current_card, const std::string user_answer) {
     if(!current_card.check_answer(user_answer)){
-        auto it = find_in_list(this->lcards, current_card);
+        auto it = lcards.begin();
         int index = 0;
-        for(auto i = lcards.begin();i != it;i++)
+        while(*it != current_card){
+            it++;
             index++;
+        }
         q_w_answers[index]++;
-    };
-}
-
-
-std::_List_iterator<testCard> find_in_list(std::list<testCard> _list,testCard _card){
-    auto it=_list.begin();
-    while (it!=_list.end()) {
-        if(*it == _card)
-            return it;
+        total_answers++;
+        return false;
+    }
+    else {
+        total_answers++;
+        return true;
     }
 }
+unsigned int TestManager::give_total_ans() {
+    return total_answers;
+}
+
+
 int max_idx_vector(const std::vector<int> &vec) {
     int max = 0;
     int index=0;

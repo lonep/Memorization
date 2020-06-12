@@ -23,6 +23,7 @@ public:
     bool check_answer(std::string);
     std::vector <std::string> get_all_answers();
     bool operator==(testCard);
+    bool operator!=(testCard);
 };
 
 

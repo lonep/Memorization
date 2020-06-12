@@ -32,7 +32,8 @@ std::vector<std::string> testCard::get_all_answers() {
     return false_an;
 }
 bool testCard::operator==(testCard _card) {
-    if(this->question == _card.question)
-        if(this->r_answer == _card.r_answer)
-            return this->w_answer == _card.w_answer;
+    return this->question==_card.question && this->r_answer == _card.r_answer && this->w_answer == _card.w_answer;
+}
+bool testCard::operator!=(testCard _card) {
+    return this->question != _card.question && this->r_answer != _card.r_answer && this->w_answer != _card.w_answer;
 }

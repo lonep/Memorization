@@ -26,7 +26,8 @@ int main() {
     if(WR_status) {
         while (it != cards.end()) {
             UI.show_card(it->get_question(), it->get_all_answers());
-            if (it->check_answer(UI.get_answer(it->get_all_answers()))) {
+            user_request = UI.get_answer(it->get_all_answers());
+            if (tm.get_card(*it, user_request)) {
                 it++;
             }
         }

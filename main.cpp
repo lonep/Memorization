@@ -4,11 +4,11 @@
 #include "TestCard.h"
 #include <string>
 #include <list>
+#include <iostream>
 #include <clocale>
 #include <iterator> //Для реализации итератора по списку.
 
 int main() {
-    setlocale(LC_ALL, "RUS");
     IO_Module UI;
     std::string user_request;
 
@@ -16,7 +16,7 @@ int main() {
     UI.Greeting();
     WR_status = UI.Menu();
     do{
-        user_request = UI.get_PATH();
+        user_request = UI.get_PATH(WR_status);
     } while (!file::isPATHCorrect(user_request));
     file File(user_request,WR_status);
     std::list<testCard> cards;
@@ -30,7 +30,10 @@ int main() {
                 it++;
             }
         }
+        UI.show_stats(tm.give_stat());
     }
-    else {}
+    else {
+        std::cout << "This func doesn't work.";
+    }
 
 }

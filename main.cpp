@@ -14,23 +14,23 @@ int main() {
 
     bool WR_status = true;
     UI.Greeting();
-    user_request = UI.Menu();
-   /* do{
+    WR_status = UI.Menu();
+    do{
         user_request = UI.get_PATH();
-    } while (!file::isPATHCorrect(user_request)); */
+    } while (!file::isPATHCorrect(user_request));
     file File(user_request,WR_status);
     std::list<testCard> cards;
     cards = File.read();
     TestManager tm(cards);
-
     auto it = cards.begin();
-    while(it != cards.end()){
-        UI.show_card(it->get_question(),it->get_all_answers());
-        if(it->check_answer(UI.get_answer(it->get_all_answers()))){
-            it++;
+    if(WR_status) {
+        while (it != cards.end()) {
+            UI.show_card(it->get_question(), it->get_all_answers());
+            if (it->check_answer(UI.get_answer(it->get_all_answers()))) {
+                it++;
+            }
         }
     }
-    ;
-
+    else {}
 
 }

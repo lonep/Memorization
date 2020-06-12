@@ -8,11 +8,14 @@ TestManager::TestManager(const std::list<testCard> &cards) {
 }
 std::multimap<int, std::string> TestManager::give_stat() {
     std::multimap<int,std::string> map_stats;
+    if(max_in_vector(q_w_answers) == 0)
+        return map_stats;
     for (int n = 0; n < 3; n++) {
         auto it = lcards.begin();
         for (int i = 0; i < max_idx_vector(q_w_answers); i++)
             it++;
-        map_stats.emplace(std::make_pair(max_in_vector(q_w_answers), it->get_question()));
+        if(max_in_vector(q_w_answers) != 0)
+            map_stats.emplace(std::make_pair(max_in_vector(q_w_answers), it->get_question()));
         q_w_answers[max_idx_vector(q_w_answers)] = -1;
     }
     return map_stats;

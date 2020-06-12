@@ -36,5 +36,5 @@ int main() {
     else {
         std::cout << "This func doesn't work.";
     }
-
+    system("pause");
 }

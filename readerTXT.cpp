@@ -8,14 +8,11 @@
 
 std::list<testCard> readerTXT::parseFile(std::ifstream &file) {
     std::list<testCard> cardList;
-
-
     string s;
     getline(file, s);
     string quest, trueAn;
     vector <string> falseAn;
     while (!file.eof()) {
-
         for (int i = 4; i < s.length(); i++)
             quest += s[i];
         getline(file, s);
@@ -23,7 +20,7 @@ std::list<testCard> readerTXT::parseFile(std::ifstream &file) {
             trueAn += s[i];
         getline(file, s);
         stringstream f;
-        while (s[1] == 'f' && s.length()>0) {
+        while (s[1] == 'f' && s.length()>0 && !file.eof()) {
             for (int i = 4; i < s.length(); i++)
                 f << s[i];
             falseAn.push_back(f.str());

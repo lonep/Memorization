@@ -35,7 +35,9 @@ void file::write(std::list<testCard> testCards) {
 }
 
 bool file::isPATHCorrect(const std::string path) {
-    std::ifstream tmp(path);
+    string newpath;
+    newpath = "Tests/" + path;
+    std::ifstream tmp(newpath);
     if(tmp.is_open()){
         tmp.close();
         return true;
@@ -44,6 +46,6 @@ bool file::isPATHCorrect(const std::string path) {
 }
 
 file::file(std::string &path, bool &MODE) {
-    PATH = path;
+    PATH ="Tests/" + path;
     mode = MODE;
 }

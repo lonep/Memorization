@@ -36,7 +36,7 @@ bool IO_Module::Menu()
 std::string IO_Module::get_PATH(bool mode)
 {
 	std::string path = "0";
-	std::cout << "Please write a full name: ";
+	std::cout << "Please write the full file name: ";
 	if (mode == 0)
 		std::cin >> path;
 	else {

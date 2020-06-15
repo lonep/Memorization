@@ -1,3 +1,0 @@
-C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir
-C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/rebuild_cache.dir

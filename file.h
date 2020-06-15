@@ -20,7 +20,7 @@ public:
     void write(std::list<testCard> testCards);
     static bool isPATHCorrect(std::string path);
     std::list<testCard> read();
-    file(std::string &path, bool &MODE);
+    file(std::string &path, bool &MODE); //конструктор
 };
 
 

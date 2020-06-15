@@ -2,7 +2,6 @@
 #include "file.h"
 #include <iostream>
 #include <clocale>
-#include <conio.h>
 
 void IO_Module::Greeting()
 {
@@ -10,7 +9,8 @@ void IO_Module::Greeting()
 	std::cout << "This program is designed to remember any information by repeating\n";
 	std::cout << "You can create questions or open a ready-made test\n";
 	std::cout << "Press any key to continue...";
-	_getch();
+	char start = '0';
+	std::cin >> start;
 }
 
 bool IO_Module::Menu()
@@ -21,14 +21,10 @@ bool IO_Module::Menu()
 	while (true)
 	{
 		std::cin >> answer;
-		if (answer == 'C' || answer == 'c') {
-			std::cout << std::endl;
+		if (answer == 'C' || answer == 'c')
 			return 0;
-		}
-		else if (answer == 'O' || answer == 'o') {
-			std::cout << std::endl;
+		else if (answer == 'O' || answer == 'o')
 			return 1;
-		}
 		else std::cout << "Invalid input. Try again: ";
 	}
 }
@@ -36,7 +32,7 @@ bool IO_Module::Menu()
 std::string IO_Module::get_PATH(bool mode)
 {
 	std::string path = "0";
-	std::cout << "Please write a full name: ";
+	std::cout << "Enter the path to the file: ";
 	if (mode == 0)
 		std::cin >> path;
 	else {
@@ -46,7 +42,6 @@ std::string IO_Module::get_PATH(bool mode)
 				std::cout << "Invalid input. Try again: ";
 		} while (!file::isPATHCorrect(path));
 	}
-	std::cout << std::endl;
 	return path;
 }
 
@@ -162,7 +157,6 @@ std::string IO_Module::get_answer(std::vector<std::string> answers)
 		else std::cout << "Invalid input. Try again: ";
 	}
 	int answ = stoi(answer);
-	std::cout << std::endl;
 	return answers[--answ];
 }
 

@@ -4,7 +4,7 @@
 
 ## Memorization is program for cyclic memorization.
 ### How can i use it?
-Novadays program allows you to create pass tests.
+Novadays program allows you to create and pass tests.
 *You can use this program to:*
 - For learn languages
 - Prepare to exams

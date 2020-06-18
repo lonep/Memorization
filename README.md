@@ -1,4 +1,7 @@
 # Memorization
+
+[Russian README](https://github.com/lonep/Memorization/blob/develop/ReadMeRu.md)
+
 ## Memorization is program for cyclic memorization.
 ### How can i use it?
 Novadays program allows you to create pass tests.

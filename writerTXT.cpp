@@ -10,9 +10,8 @@ void writerTXT::write(std::ofstream &file, std::list<testCard> &testCards) {
     while(it!=testCards.end()){
         file << "<q> " << it->get_question() << '\n';
         file << "<t> " << it->get_trueAnswer() << '\n';
-        while(it_for_copy != copy.end()) {
-            file << "<f> " << *it_for_copy << '\n';
-            it_for_copy++;
+        for(auto it_for_copy:copy){
+            file << "<f> "<< it_for_copy << '\n';
         }
         it++;
     }

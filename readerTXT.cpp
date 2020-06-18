@@ -28,6 +28,11 @@ std::list<testCard> readerTXT::parseFile(std::ifstream &file) {
             f.clear();
             getline(file, s);
         }
+        if(file.eof() && falseAn.size() < 3){
+            for (int i = 4; i < s.length(); i++)
+                f << s[i];
+            falseAn.push_back(f.str());
+        }
         testCard card(quest,trueAn,falseAn);
         cardList.push_back(card);
         quest = "";

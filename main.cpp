@@ -22,9 +22,11 @@ int main() {
     cards = File.read();
     TestManager tm(cards);
     auto it = cards.begin();
+    vector <string> all_answers;
         while (it != cards.end()) {
-            UI.show_card(it->get_question(), it->get_all_answers());
-            user_request = UI.get_answer(it->get_all_answers());
+            all_answers = it->get_all_answers();
+            UI.show_card(it->get_question(), all_answers);
+            user_request = UI.get_answer(all_answers);
             if (tm.get_card(*it, user_request)) {
                 it++;
             }

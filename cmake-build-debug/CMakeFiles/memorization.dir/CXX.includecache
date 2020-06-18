@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/lonep/Documents/GitHub/Memorization/file.cpp
+file.h
+C:/Users/lonep/Documents/GitHub/Memorization/file.h
+fstream
+-
+
 C:/Users/lonep/Documents/GitHub/Memorization/file.h
 writerJSON.h
 C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.h
@@ -19,18 +25,6 @@ readerTXT.h
 C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.h
 list
 -
-
-C:/Users/lonep/Documents/GitHub/Memorization/main.cpp
-iostream
--
-fstream
--
-readerTXT.h
-C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.h
-readerJSON.h
-C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.h
-file.h
-C:/Users/lonep/Documents/GitHub/Memorization/file.h
 
 C:/Users/lonep/Documents/GitHub/Memorization/reader.h
 testCard.h
@@ -59,6 +53,8 @@ string
 -
 vector
 -
+array
+-
 
 C:/Users/lonep/Documents/GitHub/Memorization/writer.h
 fstream
@@ -67,6 +63,8 @@ string
 -
 testCard.h
 C:/Users/lonep/Documents/GitHub/Memorization/testCard.h
+list
+-
 
 C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.h
 writer.h

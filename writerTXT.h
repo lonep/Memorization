@@ -11,10 +11,7 @@
 
 class writerTXT: public writer {
 public:
-    void setPATH(std::string str) override;
-    void write() override;
-    void setCARDS() override;
-    static bool isPATHCorrect(std::string& path);
+    void write(std::ofstream &file, std::list<testCard> &testCards) override;
 };
 
 

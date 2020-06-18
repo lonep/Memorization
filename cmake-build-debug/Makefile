@@ -122,6 +122,87 @@ memorization/fast:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/build
 .PHONY : memorization/fast
 
+IO_Module.obj: IO_Module.cpp.obj
+
+.PHONY : IO_Module.obj
+
+# target to build an object file
+IO_Module.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/IO_Module.cpp.obj
+.PHONY : IO_Module.cpp.obj
+
+IO_Module.i: IO_Module.cpp.i
+
+.PHONY : IO_Module.i
+
+# target to preprocess a source file
+IO_Module.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/IO_Module.cpp.i
+.PHONY : IO_Module.cpp.i
+
+IO_Module.s: IO_Module.cpp.s
+
+.PHONY : IO_Module.s
+
+# target to generate assembly for a file
+IO_Module.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/IO_Module.cpp.s
+.PHONY : IO_Module.cpp.s
+
+Mixer.obj: Mixer.cpp.obj
+
+.PHONY : Mixer.obj
+
+# target to build an object file
+Mixer.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/Mixer.cpp.obj
+.PHONY : Mixer.cpp.obj
+
+Mixer.i: Mixer.cpp.i
+
+.PHONY : Mixer.i
+
+# target to preprocess a source file
+Mixer.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/Mixer.cpp.i
+.PHONY : Mixer.cpp.i
+
+Mixer.s: Mixer.cpp.s
+
+.PHONY : Mixer.s
+
+# target to generate assembly for a file
+Mixer.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/Mixer.cpp.s
+.PHONY : Mixer.cpp.s
+
+TestManager.obj: TestManager.cpp.obj
+
+.PHONY : TestManager.obj
+
+# target to build an object file
+TestManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/TestManager.cpp.obj
+.PHONY : TestManager.cpp.obj
+
+TestManager.i: TestManager.cpp.i
+
+.PHONY : TestManager.i
+
+# target to preprocess a source file
+TestManager.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/TestManager.cpp.i
+.PHONY : TestManager.cpp.i
+
+TestManager.s: TestManager.cpp.s
+
+.PHONY : TestManager.s
+
+# target to generate assembly for a file
+TestManager.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/TestManager.cpp.s
+.PHONY : TestManager.cpp.s
+
 file.obj: file.cpp.obj
 
 .PHONY : file.obj
@@ -230,6 +311,87 @@ readerTXT.cpp.s:
 	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/readerTXT.cpp.s
 .PHONY : readerTXT.cpp.s
 
+testCard.obj: testCard.cpp.obj
+
+.PHONY : testCard.obj
+
+# target to build an object file
+testCard.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/testCard.cpp.obj
+.PHONY : testCard.cpp.obj
+
+testCard.i: testCard.cpp.i
+
+.PHONY : testCard.i
+
+# target to preprocess a source file
+testCard.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/testCard.cpp.i
+.PHONY : testCard.cpp.i
+
+testCard.s: testCard.cpp.s
+
+.PHONY : testCard.s
+
+# target to generate assembly for a file
+testCard.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/testCard.cpp.s
+.PHONY : testCard.cpp.s
+
+writerJSON.obj: writerJSON.cpp.obj
+
+.PHONY : writerJSON.obj
+
+# target to build an object file
+writerJSON.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerJSON.cpp.obj
+.PHONY : writerJSON.cpp.obj
+
+writerJSON.i: writerJSON.cpp.i
+
+.PHONY : writerJSON.i
+
+# target to preprocess a source file
+writerJSON.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerJSON.cpp.i
+.PHONY : writerJSON.cpp.i
+
+writerJSON.s: writerJSON.cpp.s
+
+.PHONY : writerJSON.s
+
+# target to generate assembly for a file
+writerJSON.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerJSON.cpp.s
+.PHONY : writerJSON.cpp.s
+
+writerTXT.obj: writerTXT.cpp.obj
+
+.PHONY : writerTXT.obj
+
+# target to build an object file
+writerTXT.cpp.obj:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerTXT.cpp.obj
+.PHONY : writerTXT.cpp.obj
+
+writerTXT.i: writerTXT.cpp.i
+
+.PHONY : writerTXT.i
+
+# target to preprocess a source file
+writerTXT.cpp.i:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerTXT.cpp.i
+.PHONY : writerTXT.cpp.i
+
+writerTXT.s: writerTXT.cpp.s
+
+.PHONY : writerTXT.s
+
+# target to generate assembly for a file
+writerTXT.cpp.s:
+	$(MAKE) -f CMakeFiles\memorization.dir\build.make CMakeFiles/memorization.dir/writerTXT.cpp.s
+.PHONY : writerTXT.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -239,6 +401,15 @@ help:
 	@echo ... memorization
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... IO_Module.obj
+	@echo ... IO_Module.i
+	@echo ... IO_Module.s
+	@echo ... Mixer.obj
+	@echo ... Mixer.i
+	@echo ... Mixer.s
+	@echo ... TestManager.obj
+	@echo ... TestManager.i
+	@echo ... TestManager.s
 	@echo ... file.obj
 	@echo ... file.i
 	@echo ... file.s
@@ -251,6 +422,15 @@ help:
 	@echo ... readerTXT.obj
 	@echo ... readerTXT.i
 	@echo ... readerTXT.s
+	@echo ... testCard.obj
+	@echo ... testCard.i
+	@echo ... testCard.s
+	@echo ... writerJSON.obj
+	@echo ... writerJSON.i
+	@echo ... writerJSON.s
+	@echo ... writerTXT.obj
+	@echo ... writerTXT.i
+	@echo ... writerTXT.s
 .PHONY : help
 
 

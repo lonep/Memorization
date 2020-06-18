@@ -4,23 +4,48 @@
 
 #include "file.h"
 #include <fstream>
-void file::read() {
-    if(PATH.find(".json") != -1){ //Просто проверяем наличие такого типа в пути
-    ifstream json;                   // -1 это значит подстрока не найдена
+
+std::list<testCard> file::read() {
+    if(PATH.find(".json") != -1){
+    ifstream json;
     json.open(PATH);
     readerJSON reader;
-    testCards = reader.parseFile(json);
-    json.close();
+    return reader.parseFile(json);
     }
     if(PATH.find(".txt") != -1){
     ifstream txt;
     txt.open(PATH);
     readerTXT reader;
-    testCards = reader.parseFile(txt); //reader возвращает массив указателей на testCard
-    txt.close();
+    return reader.parseFile(txt);
+    }
+}
+void file::write(std::list<testCard> testCards) {
+    if(PATH.find(".json") != -1){
+        ofstream json;
+        json.open(PATH);
+        writerJSON write;
+        write.write(json, testCards);
+    }
+    if(PATH.find(".txt") != -1){
+        ofstream txt;
+        txt.open(PATH);
+        writerTXT write;
+        write.write(txt, testCards);
     }
 }
 
-void file::getPATH(string s) {
-    PATH = s;
+bool file::isPATHCorrect(const std::string path) {
+    string newpath;
+    newpath = "Tests/" + path;
+    std::ifstream tmp(newpath);
+    if(tmp.is_open()){
+        tmp.close();
+        return true;
+    }
+    else return false;
+}
+
+file::file(std::string &path, bool &MODE) {
+    PATH ="Tests/" + path;
+    mode = MODE;
 }

@@ -14,15 +14,13 @@
 
 
 class file {
-protected:
-    std::string PATH;
-    std::list<testCard*> testCards;
+    std::string PATH; // путь к файлу
+    bool mode; // .json/.txt обработка
 public:
-        //TODO transerToManager
-    void transferToManager();
-    void write();
-    void read();
-    void getPATH(string s);
+    void write(std::list<testCard> testCards);
+    static bool isPATHCorrect(std::string path);
+    std::list<testCard> read();
+    file(std::string &path, bool &MODE);
 };
 
 

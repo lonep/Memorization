@@ -6,29 +6,33 @@
 #include <string>
 #include <sstream>
 
-std::list<testCard*> readerTXT::parseFile(std::ifstream &file) {
-    std::list<testCard*> cardList;
+std::list<testCard> readerTXT::parseFile(std::ifstream &file) {
+    std::list<testCard> cardList;
     string s;
     getline(file, s);
-
+    string quest, trueAn;
+    vector <string> falseAn;
     while (!file.eof()) {
-        testCard *card = new testCard;
         for (int i = 4; i < s.length(); i++)
-            card->question += s[i];
+            quest += s[i];
         getline(file, s);
         for (int i = 4; i < s.length(); i++)
-            card->trueAn += s[i];
+            trueAn += s[i];
         getline(file, s);
         stringstream f;
-        while (s[1] == 'f' && s.length()>0) {
+        while (s[1] == 'f' && s.length()>0 && !file.eof()) {
             for (int i = 4; i < s.length(); i++)
                 f << s[i];
-            card->falseAn.push_back(f.str());
+            falseAn.push_back(f.str());
             f.str("");
             f.clear();
             getline(file, s);
         }
+        testCard card(quest,trueAn,falseAn);
         cardList.push_back(card);
+        quest = "";
+        trueAn = "";
+        falseAn.clear();
     }
     return cardList;
 }

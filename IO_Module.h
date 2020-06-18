@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <list>
 
 class IO_Module{
 public:
@@ -12,4 +13,5 @@ public:
     void show_card (std::string question, std::vector<std::string> answers);
     std::string get_answer(std::vector<std::string> answers);
     void show_stats(std::multimap<int, std::string> stat);
+    std::list<testCard> get_questions();
 };

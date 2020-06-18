@@ -5,8 +5,6 @@
 #include <string>
 #include <list>
 #include <iostream>
-#include <clocale>
-#include <iterator> //Для реализации итератора по списку.
 
 int main() {
     IO_Module UI;
@@ -17,13 +15,13 @@ int main() {
     WR_status = UI.Menu();
     do{
         user_request = UI.get_PATH(WR_status);
-    } while (!file::isPATHCorrect(user_request));
+    } while (!file::isPATHCorrect(user_request, WR_status));
     file File(user_request,WR_status);
     std::list<testCard> cards;
+    if(WR_status){
     cards = File.read();
     TestManager tm(cards);
     auto it = cards.begin();
-    if(WR_status) {
         while (it != cards.end()) {
             UI.show_card(it->get_question(), it->get_all_answers());
             user_request = UI.get_answer(it->get_all_answers());
@@ -34,7 +32,8 @@ int main() {
         UI.show_stats(tm.give_stat());
     }
     else {
-        std::cout << "This func doesn't work.";
+        cards = UI.get_questions();
+        File.write(cards);
     }
     system("pause");
 }

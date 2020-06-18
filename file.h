@@ -18,7 +18,7 @@ class file {
     bool mode; // .json/.txt обработка
 public:
     void write(std::list<testCard> testCards);
-    static bool isPATHCorrect(std::string path);
+    static bool isPATHCorrect(std::string path, bool WR_MODE = true);
     std::list<testCard> read();
     file(std::string &path, bool &MODE);
 };

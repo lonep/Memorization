@@ -34,15 +34,24 @@ void file::write(std::list<testCard> testCards) {
     }
 }
 
-bool file::isPATHCorrect(const std::string path) {
+bool file::isPATHCorrect(const std::string path, bool WR_MODE) {
     string newpath;
     newpath = "Tests/" + path;
+    if (WR_MODE){
     std::ifstream tmp(newpath);
     if(tmp.is_open()){
         tmp.close();
         return true;
     }
     else return false;
+ } else {
+        std::ofstream tmp(newpath);
+        if(tmp.is_open()){
+            tmp.close();
+            return true;
+        }
+        else return false;
+    }
 }
 
 file::file(std::string &path, bool &MODE) {

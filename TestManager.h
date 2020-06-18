@@ -15,6 +15,7 @@ public:
 	std::multimap<int,std::string> give_stat();
 	bool get_card(testCard &current_card, std::string user_answer);
 	unsigned int give_total_ans();
+
 };
 
 int max_idx_vector(const std::vector<int>&);

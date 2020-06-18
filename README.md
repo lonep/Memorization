@@ -7,8 +7,17 @@ Novadays program allows you to create pass tests.
 - Prepare to exams
 - Create assistive tests for students
 
+### How to launch the Memorization?
+_Attention: the program may not work correctly on platforms other than Windows_
+
+1) Clone the repository.
+2) Open cmake-build-debug
+3) Launch "memorization.exe"
+
+There are two standard tests in the folder "Tests" in cmake-build-debug for checking the operation of the program.
+
 ### How to create test?
-You can use basic .txt file or .json file.
+#### You can use basic .txt file or .json file.
 *Example of .txt file*
 ```text
 <q> 2*2  //Question of the first question
@@ -70,11 +79,18 @@ You can use basic .txt file or .json file.
 
 }
 ```
-Soon there will be a function to create a test file in the program itself.
-You should move your file in "Tests" folder.
+#### You can choose create mode in program.
 
+1) Launch the program
+2) Choose create mode "C"
+3) Enter full name of file. For example "Mytest.txt" or "Mytest.json"
+4) Follow the instructions.
+
+_Attention: If you enter the name of a file that already exists, then it will be overwritten._
 
 ### How to open test in program?
+
+You can open .txt and .json files.
 
 ![First step](https://github.com/lonep/Memorization/blob/master/ReadmePics/Annotation%202020-06-14%20155047.png "FirstPic")
 

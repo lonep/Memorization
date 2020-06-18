@@ -10,8 +10,8 @@ void IO_Module::Greeting()
 	std::cout << "This program is designed to remember any information by repeating\n";
 	std::cout << "You can create questions or open a ready-made test\n";
 	std::cout << "Press any key to continue...";
-	_getch();
-}
+	//_getch();  временно. Из-за него дебаг не работает
+	}
 
 bool IO_Module::Menu()
 {
@@ -42,9 +42,9 @@ std::string IO_Module::get_PATH(bool mode)
 	else {
 		do {
 			std::cin >> path;
-			if (!file::isPATHCorrect(path))
+			if (!file::isPATHCorrect(path, mode))
 				std::cout << "Invalid input. Try again: ";
-		} while (!file::isPATHCorrect(path));
+		} while (!file::isPATHCorrect(path, mode));
 	}
 	std::cout << std::endl;
 	return path;
@@ -172,5 +172,35 @@ void IO_Module::show_stats(std::multimap<int, std::string> stat)
 		std::cout << "You didn't make a single mistake!\n";
 	else for (auto p : stat)
 		std::cout << "In the question '" << p.second << "' " << p.first << " errors\n";
+}
+
+std::list<testCard> IO_Module::get_questions() {
+    short count;
+    string quest, tRue, falseAn;
+    std::vector <string> false_an;
+    std::list<testCard> cards;
+
+    cout << "How many questions do you want to enter? \n";
+    cin >> count;
+    for(int i = 1; i <= count; i++){
+        cout << "Input  " << i << " question \n";
+        cin.sync();
+        getline(cin, quest);
+        cout << "Input true answer \n";
+        getline(cin, tRue);
+        for (int j = 1; j < 4; j++){
+            cout << "Input " << j << " false answer \n";
+            getline(cin,falseAn);
+            false_an.push_back(falseAn);
+            falseAn.clear();
+
+        }
+        testCard card(quest,tRue,false_an);
+        cards.push_back(card);
+        quest.clear();
+        tRue.clear();
+        false_an.clear();
+    }
+    return cards;
 }
 

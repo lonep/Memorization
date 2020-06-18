@@ -2,8 +2,8 @@
 
 TestManager::TestManager(const std::list<testCard> &cards) {
     lcards = cards;
-    for(auto i:cards)               //это дело надо проверить
-        q_w_answers.push_back(0);   //может послать нахер
+    for(auto i:cards)
+        q_w_answers.push_back(0);
     total_answers = 0;
 }
 std::multimap<int, std::string> TestManager::give_stat() {

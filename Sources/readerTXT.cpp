@@ -2,7 +2,7 @@
 // Created by lonep on 22-May-20.
 //
 #include <iostream>
-#include "readerTXT.h"
+#include "../Headers/readerTXT.h"
 #include <string>
 #include <sstream>
 

@@ -1,8 +1,8 @@
 //
 // Created by lonep on 01-Jun-20.
 //
-#include "testCard.h"
-#include "Mixer.h"
+#include "../Headers/testCard.h"
+#include "../Headers/Mixer.h"
 
 testCard::testCard() {
     question = "";

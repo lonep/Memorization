@@ -1,4 +1,4 @@
-#include "TestManager.h"
+#include "../Headers/TestManager.h"
 
 TestManager::TestManager(const std::list<testCard> &cards) {
     lcards = cards;

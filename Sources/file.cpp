@@ -2,7 +2,7 @@
 // Created by Vladimir on 5/28/2020.
 //
 
-#include "file.h"
+#include "../Headers/file.h"
 #include <fstream>
 
 std::list<testCard> file::read() {

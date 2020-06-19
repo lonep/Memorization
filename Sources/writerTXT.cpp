@@ -2,7 +2,7 @@
 // Created by Vladimir on 5/28/2020.
 //
 
-#include "writerTXT.h"
+#include "../Headers/writerTXT.h"
 void writerTXT::write(std::ofstream &file, std::list<testCard> &testCards) {
     auto it = testCards.begin();
     while(it!=testCards.end()){

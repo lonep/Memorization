@@ -1,5 +1,5 @@
-#include "IO_Module.h"
-#include "file.h"
+#include "../Headers/IO_Module.h"
+#include "../Headers/file.h"
 #include <iostream>
 #include <clocale>
 #include <conio.h>

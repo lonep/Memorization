@@ -1,7 +1,7 @@
-#include "IO_Module.h"
-#include "file.h"
-#include "TestManager.h"
-#include "TestCard.h"
+#include "../Headers/IO_Module.h"
+#include "../Headers/file.h"
+#include "../Headers/TestManager.h"
+#include "../Headers/testCard.h"
 #include <string>
 #include <list>
 #include <iostream>

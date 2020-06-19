@@ -1,4 +1,4 @@
-#include"Mixer.h"
+#include"../Headers/Mixer.h"
 #include <ctime>
 
 void Mixer::mixVector(std::vector<std::string> &answers)

@@ -80,67 +80,64 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/IO_Module.cpp">
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Headers/IO_Module.h">
 			<Option target="memorization"/>
 		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/IO_Module.h">
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Headers/Mixer.h">
 			<Option target="memorization"/>
 		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Mixer.cpp">
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Headers/TestManager.h">
 			<Option target="memorization"/>
 		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Mixer.h">
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Headers/file.h">
 			<Option target="memorization"/>
 		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/TestManager.cpp">
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Headers/reader.h">
 			<Option target="memorization"/>
 		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/TestManager.h">
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Headers/readerJSON.h">
 			<Option target="memorization"/>
 		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/file.cpp">
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Headers/readerTXT.h">
 			<Option target="memorization"/>
 		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/file.h">
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Headers/testCard.h">
 			<Option target="memorization"/>
 		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/main.cpp">
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Headers/writerJSON.h">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Sources/IO_Module.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Sources/Mixer.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Sources/TestManager.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Sources/file.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Sources/main.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Sources/readerJSON.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Sources/readerTXT.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Sources/testCard.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Sources/writerJSON.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/Sources/writerTXT.cpp">
 			<Option target="memorization"/>
 		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/rapidjson">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/reader.h">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.cpp">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.h">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.cpp">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.h">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/testCard.cpp">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/testCard.h">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.cpp">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/writerJSON.h">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/writerTXT.cpp">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/writerTXT.h">
 			<Option target="memorization"/>
 		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/CMakeLists.txt">

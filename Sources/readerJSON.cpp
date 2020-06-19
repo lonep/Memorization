@@ -2,11 +2,11 @@
 // Created by lonep on 29-May-20.
 //
 
-#include "readerJSON.h"
-#include "rapidjson/document.h"
+#include "../Headers/readerJSON.h"
+#include "../rapidjson/document.h"
 #include <iostream>
-#include "testCard.h"
-#include "rapidjson/istreamwrapper.h"
+#include "../Headers/testCard.h"
+#include "../rapidjson/istreamwrapper.h"
 
 using namespace rapidjson;
 std::list<testCard> readerJSON::parseFile(std::ifstream &file) {

@@ -2,10 +2,10 @@
 // Created by Vladimir on 5/28/2020.
 //
 
-#include "writerJSON.h"
-#include "rapidjson/document.h"
-#include "rapidjson/writer.h"
-#include "rapidjson/ostreamwrapper.h"
+#include "../Headers/writerJSON.h"
+#include "../rapidjson/document.h"
+#include "../rapidjson/writer.h"
+#include "../rapidjson/ostreamwrapper.h"
 using namespace rapidjson;
 void writerJSON::write(std::ofstream &file, std::list<testCard> &testCards) {
     Document doc;
